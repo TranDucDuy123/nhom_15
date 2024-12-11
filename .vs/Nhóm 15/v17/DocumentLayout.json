@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\controllers\\profilecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\profilecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\controllers\\aestestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\aestestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\controllers\\hybridencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\controllers\\hybridencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\models\\userregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\userregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\views\\account\\facerecognition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\views\\account\\facerecognition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\views\\shared\\_layoutindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\views\\shared\\_layoutindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\models\\xe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\xe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|d:\\project\\nh\u00F3m 15\\nh\u00F3m 15\\myaspnetapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD387DAC-8592-4DD8-B35A-3374D1441524}|MyAspNetApp\\MyAspNetApp.csproj|solutionrelative:myaspnetapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Models\\ChangePasswordViewModel.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "MyAspNetApp\\Models\\ChangePasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:23:57.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Models\\ProfileViewModel.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\ProfileViewModel.cs",
+              "RelativeToolTip": "MyAspNetApp\\Models\\ProfileViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:23:35.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AesTestController.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\AesTestController.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Controllers\\AesTestController.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\AesTestController.cs",
+              "RelativeToolTip": "MyAspNetApp\\Controllers\\AesTestController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:17:04.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyAspNetApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:16:18.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "MyAspNetApp\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T22:15:27.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileController .cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\ProfileController .cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Controllers\\ProfileController .cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\ProfileController .cs",
+              "RelativeToolTip": "MyAspNetApp\\Controllers\\ProfileController .cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:14:07.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_LayoutIndex.cshtml",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Shared\\_LayoutIndex.cshtml",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Views\\Shared\\_LayoutIndex.cshtml",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Shared\\_LayoutIndex.cshtml",
+              "RelativeToolTip": "MyAspNetApp\\Views\\Shared\\_LayoutIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T21:20:07.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyAspNetApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T21:19:57.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MyAspNetApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T21:16:39.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MyAspNetApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T20:42:18.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRegisterModel.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\UserRegisterModel.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Models\\UserRegisterModel.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\UserRegisterModel.cs",
+              "RelativeToolTip": "MyAspNetApp\\Models\\UserRegisterModel.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAB8AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:39:25.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MyAspNetApp\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwFUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:06:57.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FaceRecognition.cshtml",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Account\\FaceRecognition.cshtml",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Views\\Account\\FaceRecognition.cshtml",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Account\\FaceRecognition.cshtml",
+              "RelativeToolTip": "MyAspNetApp\\Views\\Account\\FaceRecognition.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T21:27:35.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HybridEncryption.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\HybridEncryption.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Controllers\\HybridEncryption.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Controllers\\HybridEncryption.cs",
+              "RelativeToolTip": "MyAspNetApp\\Controllers\\HybridEncryption.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:00:31.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "MyAspNetApp\\Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAAA4BAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T19:13:30.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Program.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Program.cs",
+              "RelativeToolTip": "MyAspNetApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T18:57:50.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Xe.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\Xe.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Models\\Xe.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\Xe.cs",
+              "RelativeToolTip": "MyAspNetApp\\Models\\Xe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T18:57:44.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MyAspNetApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T18:57:43.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MyAspNetApp\\appsettings.json",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\appsettings.json",
+              "RelativeToolTip": "MyAspNetApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T18:57:19.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MyAspNetApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\project\\Nh\u00F3m 15\\Nh\u00F3m 15\\MyAspNetApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MyAspNetApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T18:57:03.101Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

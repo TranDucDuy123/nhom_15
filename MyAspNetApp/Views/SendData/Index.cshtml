@@ -1,0 +1,26 @@
+@{
+    ViewBag.Title = "Send Data to Encrypt";
+}
+
+<h2>Send Data for Encryption</h2>
+
+<form method="post" asp-action="PostData">
+    <div class="form-group">
+        <label for="plaintext">Enter Plaintext:</label>
+        <input type="text" class="form-control" id="plaintext" name="plaintext" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Encrypt</button>
+</form>
+
+@if (ViewBag.EncryptedText != null)
+{
+    <h3>Encryption Result</h3>
+    <p><strong>Plaintext:</strong> @ViewBag.Plaintext</p>
+    <p><strong>Encrypted Text (Base64):</strong> @ViewBag.EncryptedText</p>
+    <p><strong>Encrypted AES Key (Base64):</strong> @ViewBag.EncryptedKey</p>
+    <p><strong>Encrypted AES IV (Base64):</strong> @ViewBag.EncryptedIV</p>
+}
+@if (ViewBag.ErrorMessage != null)
+{
+    <p class="text-danger">@ViewBag.ErrorMessage</p>
+}

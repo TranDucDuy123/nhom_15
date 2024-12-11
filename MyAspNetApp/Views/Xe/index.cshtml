@@ -1,0 +1,41 @@
+@model IEnumerable<ChangePasswordViewModel.Models.Xe>
+
+@{
+    ViewData["Title"] = "Danh sách xe";
+}
+
+<div class="text-center">
+    <h2>Danh sách xe</h2>
+    
+    <!-- Hiển thị thông báo -->
+    <div class="alert alert-info">
+        <strong>Thông báo:</strong> @ViewBag.Message
+    </div>
+
+    <!-- Hiển thị bảng danh sách xe -->
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Mã xe</th>
+                <th>Mô hình</th>
+                <th>Nhà sản xuất</th>
+                <th>Năm sản xuất</th>
+                <th>Giá</th>
+                <th>Số xe có trong kho</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var xe in Model)
+            {
+                <tr>
+                    <td>@xe.Maxe</td>
+                    <td>@xe.Mohinh</td>
+                    <td>@xe.Nhasanxuat</td>
+                    <td>@xe.Namsanxuat.ToShortDateString()</td>
+                    <td>@xe.Gia</td>
+                    <td>@xe.Soxecotrongkho</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

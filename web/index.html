@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0/fontawesome-free-6.4.0-web/css/all.min.css">
+    <title>STORE T2Q HUIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    .container>header{
+        background-size:100% 100%;
+        height:0px;
+        padding-bottom:25%;
+        background-image: url('assets/img/header.png');
+    }
+    #data2>.menu23>img{
+        width: 100%;
+        height: 240px;
+    }
+    #data2>.menu23{ 
+        padding: 10px;
+        text-align: center;
+        border: 0.5px solid rgb(241, 237, 237);
+    }
+    .menu:hover,
+    .menu23:hover {
+        transition: 0.5s;
+        border: 1px solid grey;
+        box-shadow: 0px 0px 10px rgb(41, 40, 40);
+        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: -7px;
+    }
+
+    .menu:hover img,
+    .menu23:hover img{
+        display:block;
+        transition: all .3s ease;
+    }
+
+    .menu:hover img:hover,
+    .menu23:hover img:hover{
+        transform: scale(1.3); /* cỡ zoom khi di chuột vào */
+    } 
+
+    .menu:hover img,
+    .menu23:hover img{
+        display:block;
+        overflow: hidden;
+    }
+
+    .menu img,
+    .menu23 img{
+        max-width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu23 > h3  {
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    .menu23 button{
+        background-color: rgb(10, 11, 11);
+        color: azure;
+        font-size: 20px;
+        padding: 15px 30px;
+        border: 2px solid grey;
+        margin: 10px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+
+    .menu23 div{
+        color:red;
+        font-size: 20px;
+    }
+
+    .menu23 a{
+        font-size: 15px;
+    }
+    .menu23 a:hover{
+        cursor: pointer;
+        color:grey;
+    }
+    .custom-border {
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: #000;
+      margin-bottom: 20px;
+    }
+    .search-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  border:2px solid black;
+  border-radius: 4px;
+  width:500px;
+  margin-left: 20px;
+}
+
+#myInput {
+  padding: 10px;
+  border: none;
+}
+
+.search-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #000;
+  padding: 15.5px;
+  cursor: pointer;
+
+}
+
+.search-button i {
+  font-size: 16px;
+  color: #fff;
+
+}
+.timkiem {
+  width: 500px;
+  margin: auto;
+}
+ 
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ddd;
+
+}
+ 
+#myUL {
+  list-style-type: none;
+  display: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+  width: 500px;
+}
+ 
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; 
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+ 
+#myUL li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+ 
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style>
+<body>
+    <div class="fab-wrapper">
+        <input id="fabCheckbox" type="checkbox" class="fab-checkbox">
+        <label class="fab" for="fabCheckbox">
+           <i class="icon-cps-fab-menu"></i>
+        </label>
+        <div class="fab-wheel">
+           <a class="fab-action fab-action-1" href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%C3%B4ng+Th%C6%B0%C6%A1ng+TP.+H%E1%BB%93+Ch%C3%AD+Minh+(HUIT)/@10.8061539,106.6260907,17z/data=!3m1!4b1!4m6!3m5!1s0x31752be27d8b4f4d:0x92dcba2950430867!8m2!3d10.8061539!4d106.6286656!16s%2Fm%2F0vb3q34?hl=vi-VN&entry=ttu" rel="nofollow" target="_blank">
+              <span class="fab-title">Tìm công ty</span>
+              <div class="fab-button fab-button-1"><i class="icon-cps-local"></i></div>
+           </a>
+           <a class="fab-action fab-action-2" href="liên hệ.html" rel="nofollow">
+              <span class="fab-title">Gọi trực tiếp</span>
+              <div class="fab-button fab-button-2"><i class="icon-cps-phone"></i></div>
+           </a>
+           <a class="fab-action fab-action-3" href="https://www.facebook.com/nguyen.thingocthanh.79230?mibextid=JRoKGi" target="_blank" rel="nofollow">
+              <span class="fab-title">Chat ngay</span>
+              <div class="fab-button fab-button-3"><i class="icon-cps-chat"></i></div>
+           </a>
+           <a class="fab-action fab-action-4" href="https://zalo.me/0899307224" target="_blank" rel="nofollow">
+              <span class="fab-title">Chat trên Zalo</span>
+              <div class="fab-button fab-button-4"><i class="icon-cps-chat-zalo"></i></div>
+           </a>
+        </div>
+        <div class="suggestions-chat-box hidden" style="display: none;">
+           <div class="box-content d-flex justify-content-around align-items-center">
+              <i class="fa fa-times-circle" aria-hidden="true" id="btnClose" onclick="jQuery('.suggestions-chat-box').hide()"></i>
+              <p class="mb-0 font-14">Liên hệ ngay <i class="fa fa-hand-o-right" aria-hidden="true"></i></p>
+           </div>
+        </div>
+        <div class="devvn_bg"></div>
+     </div>
+    <div class="container">
+        <header>
+            <div id="user">
+                <a href="giohang.html">
+                    <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                    <b id="sosp"></b>
+                </a> 
+            </div>
+        </header>
+        <nav>            
+            <a style="text-decoration: none;" href="#" target="page"><i class="fa fa-home" aria-hidden="true" style="font-size:20px; "></i> TRANG CHỦ</a>
+            <a style="text-decoration: none;" href="liên hệ.html" target="page"><i class="fa fa-phone" aria-hidden="true" style="font-size:20px"></i> LIÊN HỆ</a>
+            <a style="text-decoration: none;" href="giới thiệu.html" target="page"><i class="fa-solid fa-pen-to-square" aria-hidden="true" style="font-size:20px"></i> GIỚI THIỆU</a>
+            <a style="text-decoration: none;" href="đăng kí.html" target="page"> <i class="fa fa-user" aria-hidden="true" style="font-size:20px"></i> ĐĂNG KÝ</a> 
+            <a style="text-decoration: none;" href="đăng nhập.html" target="page"><i class="fa fa-user" aria-hidden="true" style="font-size:20px"></i> ĐĂNG NHẬP</a> 
+            <ul class="header__navbar-list">
+                <li class="header__navbar-item header__navbar-item--has-notify" style="z-index: 9999;">
+                    <a href="" class="header__navbar-item-link">
+                        <i class="header__navbar-icon fa-solid fa-bell"></i>
+                        THÔNG BÁO
+                    </a>
+                    <div class="header__notify">
+                        <header class="header__notify-header">
+                            <h3>Thông báo mới nhận</h3>
+                        </header>
+                        <ul class="header__notify-list">
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="tucson.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Tucson.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name">TUCSON</span>
+                                        <span class="header__notify-desriotion">Khi mua xe được làm giấy tờ miễn phí</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="creta.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Creta.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name">CRETA</span>  
+                                        <span class="header__notify-desriotion">Trải nghiệm xe tại store trong tháng 6</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="custin.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/custin.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name">CUSTIN</span>  
+                                        <span class="header__notify-desriotion">Ưu dãi về giá trong tháng 5</span>
+                                    </div>
+                                </a>
+                            </li>
+                       </ul>
+                       <footer class="header__notify-footer">
+                        <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                       </footer>
+                    </div>
+                </li>        
+            </ul>
+            <ul class="header__navbar-list" >
+                <li class="header__navbar-item header__navbar-item--has-notify" style="z-index: 9999;">
+                    <a href="" class="header__navbar-item-link">
+                        <i class="fa-solid fa-car" style="font-size: 20px;"></i>
+                        SẢN PHẨM
+                    </a>
+                    <div class="header__notify" style="width: 800px">
+                        <header class="header__notify-header">
+                            <h3 style="text-align: center;">Sản Phẩm</h3>
+                        </header>
+                        <ul class="header__notify-list" id="list">
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="tucson.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Tucson.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">TUCSON</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="creta.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Creta.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">CRETA</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="custin.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/custin.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">CUSTIN</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="grand i10 sedan.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Grand-i10-Sedand-i10-Sedan-1.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">GRAND I10 SEDAN</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="grand i10 hatchback.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Grand-i10.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">GRAND I10 HATCHBACK</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="venue.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Venue.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">VENUE</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="elantra.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/allnewelantra.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">ALL NEW ALANTRA</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="ioniq 5.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/IONIQ51.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">HYUNDAI IONIQ 5</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="palisade.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/palisade.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">PALISADE</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="stargazer.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/hyundaistargazer.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">STARGAZER</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="santafe.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Santa-Fe.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">SANTAFE</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="accent.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Accent.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">ACCENT</span>  
+                                    </div>
+                                </a>
+                            </li>   
+                       </ul>
+                       <footer class="header__notify-footer">
+                        <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                       </footer>
+                    </div>
+                </li>    
+            </ul>
+        </nav>
+        <secton>
+            <div class="timkiem">       
+                <div class="search-container">
+                    <input type="text" id="myInput" placeholder="Search.." title="">
+                    <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+                  </div>
+                <ul id="myUL">
+                    <li class="menu__item"><a href="accent.html">Accent</a></li>
+                    <li class="menu__item"><a href="creta.html">Creta</a></li>
+                    <li class="menu__item"><a href="grand i10 sedan.html">Grand i10 sedan</a></li>
+                    <li class="menu__item"><a href="grand i10 hatchback.html">Grand i10 hatchback</a></li>
+                    <li class="menu__item"><a href="ioniq 5.html">Hyundai ioniq</a></li>
+                    <li class="menu__item"><a href="santafe.html">Santafe</a></li>
+                    <li class="menu__item"><a href="palisade.html">Palisade</a></li>
+                    <li class="menu__item"><a href="tucson.html">Tucson</a></li>
+                    <li class="menu__item"><a href="venue.html">Venue</a></li>
+                    <li class="menu__item"><a href="custin.html">Custin</a></li>
+                    <li class="menu__item"><a href="elantra.html">All new elantra</a></li>
+                    <li class="menu__item"><a href="stargazer.html">Hyundai stargazer</a></li>
+                </ul>
+              </div>
+              <div class="custom-border" style="margin-top: 20px;"></div>
+        </secton>
+        <section class="so1">
+            <div class="tieude2">
+                <h1>SẢN PHẨM HYUNDAI CÓ TẠI STORE</h1>
+            </div>
+            <div class="filter-container">
+                <label for="price-filter" style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; justify-content: center;">Giá:</label>
+                <select id="price-filter" onchange="filterProducts()" style="height: 30px; width:200px;font-size: 14px;">
+                  <option value="all" style="font-size: 14px;">Tất cả</option>
+                  <option value="price-1" style="font-size: 14px; font-family: Arial, Helvetica, sans-serif;">100.000.000 VNĐ - 500.000.000 VNĐ</option>
+                  <option value="price-2" style="font-size: 14px; font-family: Arial, Helvetica, sans-serif;">500.000.000 VNĐ - 1.000.000.000 VNĐ</option>
+                  <option value="price-3" style="font-size: 14px; font-family: Arial, Helvetica, sans-serif;">Trên 1.000.000.000 VNĐ</option>
+                </select>
+            </div>
+            <div id="product-container">
+                <div class="sp2">
+                    <div id="data2">
+                        <div class="menu2" idsp="1" gia="426000000">
+                            <img src="assets/img sản phẩm/Accent.png">
+                            <h3>ACCENT</h3><br>
+                            <div> Giá: 426.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue" href="accent.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="2" gia="599000000">
+                            <img src="assets/img sản phẩm/Creta.png" >
+                            <h3>CRETA</h3><br>
+                            <div> Giá: 599.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue " href="creta.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="3" gia="380000000">
+                            <img src="assets/img sản phẩm/Grand-i10-Sedand-i10-Sedan-1.png" >
+                            <h3>GRAND I10 SEDAN</h3><br>
+                            <div> Giá: 380.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue " href="grand i10 sedan.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="4" gia="360000000">
+                            <img src="assets/img sản phẩm/Grand-i10.png" >
+                            <h3>GRAND I10 HATCHBACK</h3><br>
+                            <div> Giá: 360.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue" href="grand i10 hatchback.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="5" gia="1300000000">
+                            <img src="assets/img sản phẩm/IONIQ51.png" >
+                            <h3>HYUNDAI IONIQ 5</h3><br>
+                            <div> Giá: 1.300.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue" href="ioniq 5.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="6" gia="1029000000">
+                            <img src="assets/img sản phẩm/Santa-Fe.png" >
+                            <h3>SANTAFE</h3><br>
+                            <div> Giá: 1.029.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue" href="santafe.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="7" gia="1496000000">
+                            <img src="assets/img sản phẩm/palisade.png" >
+                            <h3>PALISADE</h3><br>
+                            <div> Giá: 1.496.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue " href="palisade.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="8" gia="799000000">
+                            <img src="assets/img sản phẩm/Tucson.png" >
+                            <h3>TUCSON</h3><br>
+                            <div> Giá: 799.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue " href="tucson.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="9" gia="539000000">
+                            <img src="assets/img sản phẩm/Venue.png" >
+                            <h3>VENUE</h3><br>
+                            <div> Giá: 539.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue" href="venue.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="10" gia="1850000000">
+                            <img src="assets/img sản phẩm/custin.png">
+                            <h3>CUSTIN</h3><br>
+                            <div> Giá: 1.850.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; cursor: pointer; color: blue " href="custin.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="11" gia="599000000">
+                            <img src="assets/img sản phẩm/allnewelantra.png" >
+                            <h3>ALL NEW ELANTRA</h3><br>
+                            <div> Giá: 599.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue" href="elantra.html" target="page">Xem chi tiết</a>
+                        </div>
+                        <div class="menu2" idsp="12" gia="575000000">
+                            <img src="assets/img sản phẩm/hyundaistargazer.png">
+                            <h3>HYUNDAI STARGAZER</h3><br>
+                            <div> Giá: 575.000.000 VNĐ</div>
+                            <button>Mua hàng</button><br>
+                            <a style="text-decoration: none; color: blue" href="stargazer.html" target="page">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </section>
+        <section>
+            <div class="tieude">
+                <h1 style="margin-bottom: 30px;">ĐẶC SẮC TRONG THÁNG 4</h1>
+            </div>
+            <div class="sp3">
+                <div id="data3">
+                    <div class="menu3">
+                        <h2 style="font-size: 20px; margin-top: 10px;">Sản phẩm có lượt đặt mua nhiều nhất trong tháng 4</h2>
+                        <img src="assets/img sản phẩm/Accent.png" height="500px" width="600px">      
+                    </div>
+                    <div class="menu3">
+                        <h2 style="font-size: 20px; margin-top: 10px;">Hỗ trợ làm giấy tờ miễn phí khi mua SANTAFE</h2>
+                        <img src="assets/img sản phẩm/Santa-Fe.png" height="500px" width="600px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="tieude2">
+                <h1 style="margin-top: 40px;">NHẬN ORDER LAMBORGHINI</h1>
+            </div>
+            <div class="sp2">  
+                <div id="data2">
+                    <div class="menu23" idsp="13" gia="">
+                        <img src="assets/img sản phẩm/countach.jpg" alt="">
+                        <h3>COUNTACH</h3><br>
+                        <div>Giá: Vui lòng liên hệ</div>
+                        <button>Mua hàng</button><br>
+                        <a style="text-decoration: none; color: blue" href="tư vấn.html" target="page">Xem chi tiết</a>
+                    </div>
+                    <div class="menu23" idsp="14" gia="">
+                        <img src="assets/img sản phẩm/huracan-evo.jpg" alt="">
+                        <h3>HURACAN EVO</h3><br>
+                        <div>Giá: Vui lòng liên hệ</div>
+                        <button>Mua hàng</button><br>
+                        <a style="text-decoration: none; color: blue " href="tư vấn.html" target="page">Xem chi tiết</a>
+                    </div>
+                    <div class="menu23" idsp="15" gia="">
+                        <img src="assets/img sản phẩm/aventador-svj.jpg" alt="">
+                        <h3>AVENTADOR SVJ</h3><br>
+                        <div>Giá: Vui lòng liên hệ</div>
+                        <button>Mua hàng</button><br>
+                        <a style="text-decoration: none; color: blue " href="tư vấn.html" target="page">Xem chi tiết</a>
+                    </div>
+                    <div class="menu23" idsp="16" gia="">
+                        <img src="assets/img sản phẩm/avendor ultimae.jpg" alt="">
+                        <h3>AVENTADOR ULTIMAE</h3><br>
+                        <div>Giá: Vui lòng liên hệ</div>
+                        <button>Mua hàng</button><br>
+                        <a style="text-decoration: none; color: blue" href="tư vấn.html" target="page">Xem chi tiết</a>
+                    </div>
+                    <div class="menu23" idsp="17" gia="">
+                        <img src="assets/img sản phẩm/veneno.jpg" alt="">
+                        <h3>VENENO</h3><br>
+                        <div>Giá: Vui lòng liên hệ</div>
+                        <button>Mua hàng</button><br>
+                        <a style="text-decoration: none; color: blue " href="tư vấn.html" target="page">Xem chi tiết</a>
+                    </div>
+                    <div class="menu23" idsp="18" gia="">
+                        <img src="assets/img sản phẩm/huracan-sto.jpg" alt="">
+                        <h3>HURACAN STO</h3><br>
+                        <div>Giá: Vui lòng liên hệ</div>
+                        <button>Mua hàng</button><br>
+                        <a style="text-decoration: none; color: blue" href="tư vấn.html" target="page">Xem chi tiết</a>
+                    </div>
+                </div> 
+            </div>   
+        </section>
+        <section>
+            <div class="tieude">
+                <h1>ĐÁNH GIÁ SẢN PHẨM</h1>
+            </div>
+            <div class="toanbo">
+                <div id="danhgia">
+                    <img  src="assets/img đánh giá/ảnhDG.jpg" height="300px" width="300px">
+                </div>
+                <div id="slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="slide slide_1">
+                                   <div class="slide-content">
+                                      <img src="assets/img đánh giá/DG1.png" height="294px" width="670px">
+                                   </div>
+                                </div>
+                                <div class="slide slide_2">
+                                   <div class="slide-content">
+                                      <img src="assets/img đánh giá/DG2.png">
+                                   </div>
+                                </div>
+                                <div class="slide slide_3">
+                                   <div class="slide-content">
+                                       <img src="assets/img đánh giá/DG3.png" height="294px" width="670px">
+                                   </div>
+                                </div>
+                                <div class="slide slide_4">
+                                   <div class="slide-content">
+                                       <img src="assets/img đánh giá/DG4.png" height="294px" width="670px">
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls">
+                       <label for="slide1"></label>
+                       <label for="slide2"></label>
+                       <label for="slide3"></label>
+                       <label for="slide4"></label>
+                    </div>
+                    <div id="bullets">
+                       <label for="slide1"></label>
+                       <label for="slide2"></label>
+                       <label for="slide3"></label>
+                       <label for="slide4"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="tieude">
+                <h1>CHI NHÁNH THƯƠNG HIỆU</h1>
+            </div>
+            <div class="sp4">
+                <div id="data4">
+                    <div class="menu4">
+                        <h3>CƠ SỞ HỒ CHÍ MINH</h3>
+                        <img src="assets/img chi nhánh/hyundai-ngoc-an.jpg">
+                    </div>
+                    <div class="menu4">
+                        <p>
+                            <b>T2Q ĐÔNG SÀI GÒN</b><br>
+                            <b>Địa chỉ:</b> 409 Song Hành Hà Nội, Trường Thọ, TP.Thủ Đức, Thành phố Hồ Chí Minh.<br>
+                            <b>Giờ mở cửa:</b> 9h-22h Đóng cửa lúc 4:00.<br>
+                            <b>Điện thoại:</b> 02 3000 7888 <br><br><br>
+                            <b>T2Q SÀI THÀNH</b><br>
+                            <b>Địa chỉ:</b> Số 1202 Phạm Văn Đồng, TP.Thủ Đức, Thành phố Hồ Chí Minh.<br>
+                            (Gần ngã 4 Phạm Văn Đồng-Tô Ngọc Vân)<br>
+                            <b>Giờ mở cửa:</b> 9h-22h Đóng cửa lúc 4:00.<br>
+                            <b>Điện thoại:</b> 02 3444 8887 <br><br><br>
+                            <b>T2Q NGỌC AN</b><br>
+                            <b>Địa chỉ:</b> 327 QL13, Phường Hiệp Bình Phước, TP.Thủ Đức, Thành phố Hồ Chí Minh.<br>
+                            <b>Giờ mở cửa:</b> 9h-22h Đóng cửa lúc 4:00.<br>
+                            <b>Điện thoại:</b> 02 3444 3487 <br><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer1">
+            <div class="container">
+                <div class="container__row">
+                    <div class="container__colum-2-4">
+                        <h3 class="tieude1">THÔNG TIN LIÊN HỆ</h3>
+                        <ul class="list">
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Kinh doanh: 0938.008.168</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Đặt hẹn dịch vụ: 0938.008.168</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Hỗ trợ bảo hiểm: 0938.008.168</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">CSKH: 0938.008.168</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Liên lạc trụ sở chính qua liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container__colum-2-4">
+                        <h3 class="tieude1">DỊCH VỤ</h3>
+                        <ul class="list">
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Dịch vụ bảo dưỡng</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Dịch vụ bảo hành</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Phụ tùng chính hãng</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Đặt lịch hẹn</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Chăm sóc khách hàng</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Tư vấn dịch vụ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container__colum-2-4">
+                        <h3 class="tieude1">ĐĂNG KÍ</h3>
+                        <ul class="list">
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Đăng kí báo giá lăn bánh xe</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Đăng kí tư vấn trả góp</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Đăng kí nhận tin khuyến mãi</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Đăng kí lái thử xe</a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">Đăng kí đặt lịch hẹn dịch vụ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container__colum-2-4">
+                        <h3 class="tieude1">THEO DÕI</h3>
+                        <ul class="list">
+                            <li class="item-list">
+                                <a href="" class="item-list__link">
+                                    <i class="item-icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">
+                                    <i class="item-icon fa-brands fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="item-list">
+                                <a href="" class="item-list__link">
+                                    <i class="item-icon fa-brands fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="container__colum-2-4">
+                        <h3 class="tieude1">Vào cửa hàng ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="assets/img/qr_code.png" alt="QR Code" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="assets/img/google_play.png" alt="Gg Play" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="assets/img/app_store.png" alt="App Store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="container">
+                        <p class="footer__text" style="color: white">T2Q STORE / Huit © 2023. All rights reserved.</p>
+                    </div>
+                </div> 
+            </div>
+        </footer>
+    </div>
+    <div id="backtop">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</html>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+           if($(this).scrollTop()){
+            $('#backtop').fadeIn();
+           } else{
+            $('#backtop').fadeOut();
+           }
+        });
+        $("#backtop").click(function(){
+            $('html, body').animate({scrollTop:0},1000);
+        });
+    });
+</script>
+
+<script>
+    // Lấy tất cả các phần tử button trong các phần tử có lớp CSS là "menu2"
+    var arrButton = document.querySelectorAll(".menu2 button");
+    // Vòng lặp for để gắn sự kiện onClick cho từng nút button
+    for (i = 0; i< arrButton.length; i++) {
+        btn = arrButton[i];
+        btn.onclick = function() {
+            divmenu2 = this.parentElement;
+            idsp = divmenu2.getAttribute("idsp");
+            giasp = divmenu2.getAttribute("gia");
+            tensp = divmenu2.children[1].innerText;
+            hinhsp = divmenu2.children[0].src;
+            console.log(idsp, tensp, giasp, hinhsp);
+            var arrsp = []
+            str = localStorage.getItem("cart");
+            if (str != null) arrsp = JSON.parse(str);
+            // kiểm tra giỏ hàng nếu chưa thì có thể thêm còn đã cod thì tăng số lượng
+            index = arrsp.findIndex(menu2 => menu2[0] == idsp); //-1 nếu không có  , >=0 nếu có 
+            if (index == -1) { // sản phẩm chưa có trong giỏ
+                arrsp.push([idsp, tensp, hinhsp, giasp, soluong = 1]);
+            } else arrsp[index][4]++; // tăng số lượng lên 1
+            localStorage.setItem("cart", JSON.stringify(arrsp));
+            // cập nhật số lượng sản phẩm trong giỏ hàng trên giao diện
+            document.getElementById("sosp").innerHTML = arrsp.length+' '+' '+ 'sản phẩm'
+        }
+    }
+</script> 
+<!-- cho menu23 -->
+<script>
+    // lấy tất cả phần tử
+    var arrButton = document.querySelectorAll(".menu23 button");
+    // vòng lặp for gắn sự kiên lên nút
+    for (i = 0; i< arrButton.length; i++) {
+        btn = arrButton[i];
+        btn.onclick = function() {
+            divmenu2 = this.parentElement;
+            idsp = divmenu2.getAttribute("idsp");
+            giasp = divmenu2.getAttribute("gia");
+            tensp = divmenu2.children[1].innerText;
+            hinhsp = divmenu2.children[0].src;
+            console.log(idsp, tensp, giasp, hinhsp);
+            var arrsp = []
+            str = localStorage.getItem("cart");
+            if (str != null) arrsp = JSON.parse(str);
+            // kiem tra gio hang, ko thi them cos thi tang so luong
+            index = arrsp.findIndex(menu2 => menu2[0] == idsp); //-1 khong co , >=0 co
+            if (index == -1) { //sp chua co trong gio
+                arrsp.push([idsp, tensp, hinhsp, giasp, soluong = 1]);
+            } else arrsp[index][4]++; //tanng so luong len 1
+            localStorage.setItem("cart", JSON.stringify(arrsp));
+            document.getElementById("sosp").innerHTML = arrsp.length+' '+' '+ 'sản phẩm'
+        }
+    }
+</script>
+<script>
+    // lấy thẻ input
+    var input = document.getElementById("myInput");
+    // định nghĩa hàm xử lý myFunction
+    function myFunction() {
+        var filter, ul, li, a, i;
+        // lấy giá trị người dùng nhập
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("li");
+        // Nếu filter không có giá trị thị ẩn phần kết quare\
+        if (!filter) {
+          ul.style.display = "none";
+        }else{
+          // lặp qua tất cả các thẻ li chứa kết quả
+          for (i = 0; i < li.length; i++) {
+              // lấy thẻ a trong các thẻ li
+              a = li[i].getElementsByTagName("a")[0];
+              // kiểm tra giá trị nhập có tôn tại trong nội dung thẻ a
+              if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                //nếu có hiển thị phàn tử ul và các thẻ li đó
+                  ul.style.display = "block";
+                  li[i].style.display = "";
+              } else {
+                // nếu không ẩn các thẻ li
+                  li[i].style.display = "none";
+   
+              }
+          }
+        }
+    }
+    //gán sự kiện cho thẻ input
+    input.addEventListener("keyup", myFunction);
+  </script>
+  <script>
+    function filterProducts() {
+      var selectedValue = document.getElementById("price-filter").value;
+      var products = document.getElementsByClassName("menu2");
+      
+      for (var i = 0; i < products.length; i++) {
+        var product = products[i];
+        var price = parseInt(product.getAttribute("gia"));
+        
+        if (selectedValue === "all" || checkPriceRange(selectedValue, price)) {
+          product.style.display = "block";
+        } else {
+          product.style.display = "none";
+        }
+      }
+    }
+    
+    function checkPriceRange(selectedValue, price) {
+        switch (selectedValue) {
+            case "price-1":
+                return price >= 100000000 && price <= 500000000;
+            case "price-2":
+                return price > 500000000 && price <=1000000000;
+            case "price-3":
+                return price > 1000000000;
+            default:
+                return false;
+         } 
+    }
+  </script>

@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Facial Authentication";
+}
+
+<h2>Authenticate with Face Recognition</h2>
+
+<video id="video" width="640" height="480" autoplay></video>
+<canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+<br />
+<button id="snap">Capture</button>
+
+<script>
+    // Get access to the webcam
+    var video = document.getElementById('video');
+
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+            video.srcObject = stream;
+            video.play();
+        });
+    }
+
+    // Capture image when button is clicked
+    document.getElementById("snap").addEventListener("click", function () {
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+        context.drawImage(video, 0, 0, 640, 480);
+
+        var imageBase64 = canvas.toDataURL('image/jpeg');
+
+        // Send the captured image to the server
+        fetch('/Face/Authenticate', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ imageBase64: imageBase64 })
+        }).then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Authentication Successful!');
+                } else {
+                    alert('Authentication Failed!');
+                }
+            });
+    });
+</script>

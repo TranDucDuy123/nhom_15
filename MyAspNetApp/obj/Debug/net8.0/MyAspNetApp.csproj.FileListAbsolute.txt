@@ -1,0 +1,259 @@
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\appsettings.json
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.staticwebassets.runtime.json
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.exe
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.deps.json
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.runtimeconfig.json
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.pdb
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.csproj.AssemblyReference.cache
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.AssemblyInfoInputs.cache
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.AssemblyInfo.cs
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.csproj.CoreCompileInputs.cache
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.RazorAssemblyInfo.cache
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.RazorAssemblyInfo.cs
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.MyAspNetApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.build.MyAspNetApp.props
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyAspNetApp.props
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyAspNetApp.props
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\scopedcss\bundle\MyAspNetApp.styles.css
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\scopedcss\projectbundle\MyAspNetApp.bundle.scp.css
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNet.0CD7E028.Up2Date
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\refint\MyAspNetApp.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.pdb
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.genruntimeconfig.cache
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\ref\MyAspNetApp.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Emgu.CV.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Emgu.CV.Bitmap.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Emgu.CV.Platform.NetCore.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\cvextern.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\cvextern.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\libusb-1.0.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\opencv_videoio_ffmpeg490_64.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\cvextern.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\libusb-1.0.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\opencv_videoio_ffmpeg490.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\concrt140.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_1.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_2.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_atomic_wait.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_codecvt_ids.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\vcruntime140.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\vcruntime140_1.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\concrt140.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_1.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_2.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\vcruntime140.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\vcruntime140_1.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\concrt140.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_1.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_2.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_atomic_wait.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+C:\Users\dyly3\Downloads\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\vcruntime140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\appsettings.Development.json
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\appsettings.json
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.staticwebassets.runtime.json
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.exe
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.deps.json
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.runtimeconfig.json
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.pdb
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Emgu.CV.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Emgu.CV.Bitmap.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Emgu.CV.Platform.NetCore.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\cvextern.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\cvextern.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\libusb-1.0.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\opencv_videoio_ffmpeg490_64.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\cvextern.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\libusb-1.0.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\opencv_videoio_ffmpeg490.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\concrt140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_1.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_2.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_atomic_wait.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_codecvt_ids.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\vcruntime140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\vcruntime140_1.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\concrt140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_1.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_2.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\vcruntime140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\vcruntime140_1.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\concrt140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_1.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_2.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_atomic_wait.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\vcruntime140.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.csproj.AssemblyReference.cache
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.AssemblyInfoInputs.cache
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.AssemblyInfo.cs
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.csproj.CoreCompileInputs.cache
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.MvcApplicationPartsAssemblyInfo.cache
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.RazorAssemblyInfo.cache
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.RazorAssemblyInfo.cs
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets.build.json
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets.development.json
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.MyAspNetApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.build.MyAspNetApp.props
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyAspNetApp.props
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyAspNetApp.props
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets.pack.json
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\scopedcss\bundle\MyAspNetApp.styles.css
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\scopedcss\projectbundle\MyAspNetApp.bundle.scp.css
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNet.0CD7E028.Up2Date
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\refint\MyAspNetApp.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.pdb
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.genruntimeconfig.cache
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\ref\MyAspNetApp.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MailKit.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MimeKit.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\FluentEmail.Core.dll
+D:\download\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\FluentEmail.Smtp.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\appsettings.Development.json
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\appsettings.json
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.staticwebassets.runtime.json
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.exe
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.deps.json
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.runtimeconfig.json
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MyAspNetApp.pdb
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Emgu.CV.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Emgu.CV.Bitmap.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Emgu.CV.Platform.NetCore.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\FluentEmail.Core.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\FluentEmail.Smtp.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MailKit.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\MimeKit.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\cvextern.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\cvextern.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\libusb-1.0.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\opencv_videoio_ffmpeg490_64.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\cvextern.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\libusb-1.0.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\opencv_videoio_ffmpeg490.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\concrt140.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_1.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_2.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_atomic_wait.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\msvcp140_codecvt_ids.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\vcruntime140.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-arm64\native\vcruntime140_1.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\concrt140.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_1.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_2.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\vcruntime140.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x64\native\vcruntime140_1.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\concrt140.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_1.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_2.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_atomic_wait.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win-x86\native\vcruntime140.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.csproj.AssemblyReference.cache
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.AssemblyInfoInputs.cache
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.AssemblyInfo.cs
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.csproj.CoreCompileInputs.cache
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.MvcApplicationPartsAssemblyInfo.cache
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.RazorAssemblyInfo.cache
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.RazorAssemblyInfo.cs
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets.build.json
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets.development.json
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.MyAspNetApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.build.MyAspNetApp.props
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyAspNetApp.props
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyAspNetApp.props
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\staticwebassets.pack.json
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\scopedcss\bundle\MyAspNetApp.styles.css
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\scopedcss\projectbundle\MyAspNetApp.bundle.scp.css
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNet.0CD7E028.Up2Date
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\refint\MyAspNetApp.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.pdb
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.genruntimeconfig.cache
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\ref\MyAspNetApp.dll

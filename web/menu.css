@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    
+}
+
+li a{
+    text-decoration: none;
+}
+
+.menu > ul > li{
+    display: inline-block;
+    position: relative;
+}
+.menu > ul > li > ul {
+    display: none;
+    position: absolute;
+    top: 28px;
+    line-height: 20px;
+    z-index: 999;
+    background-color: black;
+    text-align: center;
+}
+.menu > ul > li > ul > a{
+    color: white;
+}
+.menu > ul > li > ul li{
+    padding: 5px;
+}
+.menu ul li:hover ul{
+    display: block;
+}

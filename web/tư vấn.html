@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(assets/img/dk.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .menu3{
+        height: 400px;
+        width: 450px;
+        border: 1px solid white;
+        padding: 20px;
+        margin: auto;
+        background-image: linear-gradient(black, grey);
+        /* box-shadow: 5px -5px 10px -10px grey; */
+        box-shadow: 0 15px 25px rgba(0,0,0,.6);
+        border-radius: 5px;
+    }
+    .field{
+        margin-top: 20px;
+    }
+    .input-field{
+        border: 1px solid white;
+    }
+    input{
+        height: 30px;
+        width: 400px;
+    }
+    #button{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 ,p{
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    p{
+        line-height: 20px;
+    }
+    .input-field {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        outline: none; /* Loại bỏ viền mặc định */
+    }
+</style>
+<body>
+    <div class="menu3" id="lienhe1">
+        <form class="form">
+            <h1 style="color:white">Liên Hệ Tư Vấn</h1>
+            <p style="color:white">Vui lòng gọi số <b style="color: red">0938.008.168</b><b style="color: brown"> để được tư vấn ngay</b><br>
+                Hoặc để lại Số Điện Thoại bên dưới Hyundai T2Q Store tư vấn lãi xuất hàng tháng khi mua trả góp chi tiết
+            </p>
+            <div class="field">
+                <td>
+                    <select name="tuvan" style="height:30px; width: 400px; border:1px solid black">
+                        <option value="1">ACCENT</option>
+                        <option value="2">CRETA</option>
+                        <option value="3">GRAND I10 SEDAN</option>
+                        <option value="4">GRAND I10 HATCHBACK</option>
+                        <option value="5">HYUNDAI IONIQ 5</option>
+                        <option value="6">SANTAFE</option>
+                        <option value="7">PALISADE</option>
+                        <option value="8">TUCSON</option>
+                        <option value="9">VENUE</option>
+                        <option value="10">HURACAN RWD 2018</option>
+                        <option value="11">HURACAN TECNICA</option>
+                        <option value="12">AVENTADOR S 2018</option>
+                        <option value="13">HUNRACAN 2018</option>
+                        <option value="14">AVENTADOR S 2018</option>
+                        <option value="15">HUNRACAN 2018</option>
+                        <option value="16">CUSTIN</option>
+                        <option value="17">ALL NEW ELANTRA</option>
+                        <option value="18">HYUNDAI STARGAZER</option>
+                    </select>
+                </td>
+            </div>
+            <div class="field">
+                <input placeholder="Họ và tên" class="input-field" type="text">
+            </div>
+            <div class="field">
+                <input placeholder="Số điện thoại" class="input-field" type="text">
+            </div>
+            <div  id="button">
+                <button class="button" style="height: 40px; width: 100px; background: black; margin-top: 20px; border-radius: 5px;"><a style="color: white;text-decoration: none;" href="index.html">Gửi Đi</a></button>
+            </div>
+        </form>
+        
+    </div>
+</body>
+</html>

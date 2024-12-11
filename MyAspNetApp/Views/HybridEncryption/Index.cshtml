@@ -1,0 +1,86 @@
+@{
+    ViewData["Title"] = "Hybrid Encryption";
+}
+
+<h2>Hybrid Encryption Example</h2>
+
+<!-- Hiển thị khóa RSA công khai và khóa riêng -->
+<h3>RSA Key Pair</h3>
+<p><strong>Public Key (RSA):</strong></p>
+<textarea rows="10" cols="80">@ViewBag.RsaPublicKey</textarea>
+
+<p><strong>Private Key (RSA):</strong></p>
+<textarea rows="10" cols="80">@ViewBag.RsaPrivateKey</textarea>
+
+<hr />
+
+<!-- Form nhập dữ liệu để mã hóa -->
+<h3>Mã hóa dữ liệu</h3>
+<form asp-action="Encrypt" method="post">
+    <div>
+        <label for="plaintext">Nhập dữ liệu cần mã hóa (Plaintext):</label>
+        <input type="text" id="plaintext" name="plaintext" required />
+    </div>
+    <button type="submit">Encrypt (Mã hóa)</button>
+</form>
+
+@if (ViewBag.AesKey != null && ViewBag.AesIV != null)
+{
+    <hr />
+    <h3>Kết quả Mã hóa</h3>
+    <p><strong>Plaintext (Dữ liệu gốc):</strong> @ViewBag.Plaintext</p>
+
+    <!-- Hiển thị khóa AES và IV trước khi mã hóa -->
+    <p><strong>AES Key (Trước mã hóa - Base64):</strong></p>
+    <textarea rows="3" cols="80">@ViewBag.AesKey</textarea>
+
+    <p><strong>AES IV (Trước mã hóa - Base64):</strong></p>
+    <textarea rows="3" cols="80">@ViewBag.AesIV</textarea>
+
+    <!-- Hiển thị dữ liệu đã mã hóa -->
+    <p><strong>Encrypted Text (Dữ liệu đã mã hóa - Base64):</strong></p>
+    <textarea rows="3" cols="80">@ViewBag.EncryptedText</textarea>
+
+    <!-- Hiển thị khóa AES và IV sau khi mã hóa bằng RSA -->
+    <p><strong>Encrypted AES Key (Sau mã hóa - Base64):</strong></p>
+    <textarea rows="3" cols="80">@ViewBag.EncryptedKey</textarea>
+
+    <p><strong>Encrypted AES IV (Sau mã hóa - Base64):</strong></p>
+    <textarea rows="3" cols="80">@ViewBag.EncryptedIV</textarea>
+}
+
+<hr />
+
+<!-- Form nhập dữ liệu để giải mã -->
+<h3>Giải mã dữ liệu</h3>
+@if (ViewBag.EncryptedText != null)
+{
+    <form asp-action="Decrypt" method="post">
+        <div>
+            <label for="encryptedText">Encrypted Text (Dữ liệu đã mã hóa - Base64):</label>
+            <textarea id="encryptedText" name="encryptedText" rows="3" cols="80" required>@ViewBag.EncryptedText</textarea>
+        </div>
+        <div>
+            <label for="encryptedKey">Encrypted AES Key (Base64):</label>
+            <textarea id="encryptedKey" name="encryptedKey" rows="3" cols="80" required>@ViewBag.EncryptedKey</textarea>
+        </div>
+        <div>
+            <label for="encryptedIv">Encrypted AES IV (Base64):</label>
+            <textarea id="encryptedIv" name="encryptedIv" rows="3" cols="80" required>@ViewBag.EncryptedIV</textarea>
+        </div>
+        <button type="submit">Decrypt (Giải mã)</button>
+    </form>
+}
+
+@if (ViewBag.DecryptedText != null)
+{
+    <hr />
+    <h3>Kết quả Giải mã</h3>
+    <p><strong>Decrypted Text (Dữ liệu đã giải mã):</strong> @ViewBag.DecryptedText</p>
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <hr />
+    <p style="color:red;"><strong>Lỗi:</strong> @ViewBag.ErrorMessage</p>
+}

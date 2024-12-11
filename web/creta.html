@@ -1,0 +1,3022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHI TIẾT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+<style>
+    *{
+    box-sizing:border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+
+}
+.mobai1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 20px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    height: 120px;
+    position: relative;
+}
+
+/* header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 999;
+} */
+
+.container > header > #hinhlogo{
+    width: 700px;
+    position: absolute;
+    left: -30px;
+    bottom: -250px;
+    margin-top: 50px;
+    margin-left:50px;
+}
+
+/*nhúng font*/
+.container > header > #user{
+    color:orange;
+    position: absolute;
+    font-size: 1.2em;
+    right: 20px;
+    top:0;
+}
+
+/*FLEX*/
+.container > nav{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.container > nav >a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.container > nav >a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+/* .container > nav >a{
+    color: whitesmoke;
+    margin: 10px;
+    text-decoration: none;
+}
+.container>nav>a:hover{
+    color:yellowgreen;
+    text-decoration: underline;
+} */
+/*.container > main{
+   display: flex;
+   min-height: 300px; 
+}
+.container > main > aside:nth-child(2){
+    background-color: greenyellow;
+    width: 250px;
+}
+.container > main > aside:nth-child(3){
+    background-color: orchid;
+    width: 250px;
+}
+.container > main > article{
+    background-color: orange;
+    width: 700px;
+}*/
+.container > footer{
+    background-color: grey;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+}
+
+.container>header>#user{
+    width: 300px;
+    height: 50px;
+    background-color:black;
+    position:absolute;
+    right: 133px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-variant: small-caps;
+    position: fixed;
+    z-index:999 ;
+}
+
+.container>header>#user>a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    padding: 0px; 
+}
+
+.container>header{
+    background-size:100% 100%;
+    height:0px;
+    padding-bottom:25%;
+    background-image: url('assets/img/header.png');
+}
+ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#sosp{
+    color:yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+#showcart>h3 {
+    text-align: center;
+    font-size: 1.3em;
+    background: rgb(238, 235, 235);
+    padding: 10px;
+}
+        
+#showcart {
+        /* margin-top: 20px;
+        width: 650px;
+        border: 1px solid rgb(14, 14, 13);
+        align-items: center;
+        margin-bottom: 20px; */
+    margin-top: 20px;
+    width: 650px;
+    border: 1px solid rgb(14, 14, 13);
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+        
+#showcart>.motsach  {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 300px auto;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted rgb(3, 3, 3);
+}
+        
+#showcart>.motsach img {
+    margin-top: 10px;
+    height: 200px;
+    width: 290px;
+    border: 1px solid rgb(11, 11, 9);
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+        
+#showcart>.motsach p {
+    margin-top: -40px;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    margin: 20px 20px 10px 20px;
+}
+
+@media only screen and (max-width:950px){
+    .container {width: 99%}
+    #showcart{grid-template-columns: auto;}
+}
+
+@media only screen and (max-width:600px){
+    .container {width: 99%}
+    #showcart{grid-template-columns: auto;}
+    #hinhlogo{display: none;}
+    #user{display: none;}
+}
+button{
+    background-color: black;
+    color: azure;
+    padding: 15px 30px;
+    border: 2px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+}
+    
+button:hover{
+    background-color: grey;
+
+}
+
+.container__row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -60px;
+}
+
+.container__colum-2-4 {
+    flex: 1;
+    margin: 0 0 10px 10px;
+}
+
+.container__colum-2-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+/*.menu:hover img,
+.menu2:hover img{
+	display:block;
+	transition: all .3s ease;
+}
+
+.menu:hover img:hover,
+.menu2:hover img:hover{
+	transform: scale(1.3); /* cỡ zoom khi di chuột vào *
+}
+.menu:hover img,
+.menu2:hover img{
+	display:block;
+	overflow: hidden;
+}*/
+
+.footer1{
+    padding-top: 10px;
+    border-top: 4px solid black;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.tieude1 {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.tieude1 {
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 30px;
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+.list {
+    padding-left: 0;
+    list-style: none;
+    margin: 30px;
+    margin-top: -20px;
+    margin-left: 6px;
+}
+.list1 {
+    padding-left: 0;
+    list-style: none;
+    margin: 30px;
+    margin-top: -20px;
+    margin-left: 6px;
+}
+
+.item-list__link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #ccc;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+}
+
+.item-list__link:hover {
+    color: yellowgreen;
+}
+
+.item-icon {
+    font-size: 1.7rem;
+    margin-right: 8px;
+    margin-top: -1px;
+}
+
+.footer__download{
+    display:flex;
+}
+
+.footer__download-qr{
+    width: 80px;
+    height:80px;
+    border: 1px solid black;
+    margin-top:-30px;
+}
+
+.footer__download-apps{
+    flex: 1;
+    margin-left: 16px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:-28px;
+}
+
+.footer__download{
+    flex: 1;
+    margin:16px;
+}
+.footer__download-app-img{
+    height: 16px;
+    margin-top:-30px;
+}
+
+.footer__download-app-link{
+    color:transparent;
+    text-decoration: none;
+}
+
+.footer__bottom{
+    background-color: black;
+    padding: 12px 0;
+    margin-top: 10px;
+}
+
+.footer__text{
+    margin:0px;
+    font-size: 1.4rem;
+}
+
+#backtop {
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: grey;
+    margin-top: 100px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#backtop:hover{
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+        
+.circle {
+    width: 110px;
+    height: 110px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#search-box{
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 70px;
+    height: 50px
+}
+
+#search-text{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 0;
+    padding: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+#search-box:hover #search-text,
+#search-box #search-text:valid {
+    width: 300px;
+    padding: 10px 15px;
+    height:40px;
+}
+
+#search-btn{
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 44%;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.slider{
+    width: 1200px;
+    max-width: 100vw;
+    height: 650px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff5;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+.slider .buttons button:hover{
+    background-color: black;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+.tieude{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.main{
+    width: 1200px;
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+}
+.main1 {
+    width: 600px;
+    height: 300px;
+    float: left;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 5px; 
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+.main1 img{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+/*
+.slide-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    left: 50px;
+    transform: translateX(-50%);
+    z-index: 1;
+}*/
+.main2 {
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.main2 h3 {
+    color: rgb(163, 107, 80);
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: -400px;
+}
+.main2 b{
+    color: black;
+} 
+.main2 img{
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main2 table{
+    background-color: white;
+    border-collapse: collapse;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.main2 td {
+    border: 2px solid white;
+    line-height: 30px;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    text-align: left;
+}
+.main2 li{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.main2 a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    line-height: 20px;
+    font-size: 15px;
+    padding-right: 15px;
+}
+.main2 p{
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.main3{
+    float: right;
+    margin-top: -85px;
+    height: 50px;
+}
+.foot {
+    clear: both;
+    width: 1200;
+    grid-column: 1 / span 10;
+    position: relative;
+    margin-top: -150px;
+}
+.foot h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.foot table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 1200px;
+}
+.foot th,
+td {
+    border: 2px solid gray;
+    color: black;
+    width: 10%;
+    line-height: 10px;
+    padding:20px;
+    text-align: center;
+    font-size: 20px;
+}
+.footten{
+    border: 3px dashed rgb(40, 61, 104);
+    background-color:  #f7f2f2;
+    display: flex;
+    margin-top: 20px;
+}
+.foot1{
+    float: left;
+    margin-top: 10px;
+}
+.foot1 span{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.foot1 p{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.foot1 img{
+    margin-right: 10px;
+}
+.foot2{
+    float: right;
+    margin-top: 10px;
+    height: 470px;
+    width: 600px;
+}
+.foot2 a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid rgb(163, 107, 80);
+    background-color: rgb(163, 107, 80);
+    margin-left: 270px;
+    padding: 10px;
+    color: whitesmoke;
+}
+.foot2 p{
+    margin-top: 40px;
+    margin-left: -40px;
+}
+.foot2 label{
+    margin-left: 180px;
+    font-size: 20px;
+    font-style: normal;
+
+}
+.car{
+    display: flex;
+    font-size: 20px;
+    line-height: 1.3;
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 50%;
+    margin-left: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: .65em auto, 100%;
+    height: 30px;
+
+}
+.car option{
+    font-weight: normal;
+}
+.tieude{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    
+}
+.coso{
+    width: 1200px;
+    height: 600px;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.coso1{
+    border: 2px solid black;
+    float: left;
+    border-radius: 5px;
+  
+}
+.coso1 h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+.coso1 img{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 10px;
+   
+}
+.coso2{
+    border: 2px solid black;
+    float: right;
+    border-radius: 5px;
+  
+}
+.coso2 p{
+    margin: 20px;
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+/*.footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+    margin-top: -190px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer > p{
+    color: aliceblue;
+    font-size: 20px;
+}
+.footer{
+    background-color: grey;
+    clear: both;
+    height: 300px;
+    color: white;
+    display: flex;
+    margin-top: -120px;
+    font-size: 1em;
+}*/
+.container__row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -50px;
+}
+
+.container__colum-2-4 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 30px 30px;
+    padding-right: 10px;
+}
+
+.footer1{
+    padding-top: 30px;
+    border-top: 4px solid black;
+    line-height: 25px;
+    margin-top: 120px;
+    
+    height: 250px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.tieude1 {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+.tieude1 {
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.list {
+    padding-left: 0;
+    list-style: none;
+    margin: 10px;
+    margin-top: -20px;
+    margin-left: 6px;
+}
+.item-list__link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(206, 201, 201);
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+}
+.item-list__link:hover {
+    color: yellowgreen;
+}
+.item-icon {
+    font-size: 1.2rem;
+    margin-right: 8px;
+    margin-top: -1px;
+    color: white;
+}
+.gioithieu{
+    border-top: 1px solid grey;
+    margin-top: 40px;
+    height: 700px;
+}
+.gioithieu h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.phongcach{
+    border-top: 1px solid grey;
+    margin-top: 40px;
+    background-color:  #f7f2f2;
+}
+.phongcach h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.phongcach h4{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.phongcach1{
+    margin-top: 20px;
+    display: flex;
+}
+.id1{
+    float: left;
+    margin-bottom: 30px;
+}
+.id1 img{
+    width: 590px;
+    height: 350px;
+    margin-right: 20px;
+}
+.id1 h5{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.id2{
+    float: right;
+    margin-bottom: 30px;
+}
+.id2 img{
+    width: 590px;
+    height: 350px;
+}
+.id2 h5{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ketcau{
+    border-top: 1px solid grey;
+    margin-top: 40px;
+    background-color: #f7f2f2;
+}
+.ketcau h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.ketcau h4{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.ketcau img{
+    width: 1200px;
+    height: 600px;
+}
+.thongminh{
+    border-top: 1px solid grey;
+    margin-top: 40px;
+    background-color:  #f7f2f2;
+}
+.thongminh h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.thongminh h4{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.thongminh img{
+    width: 1200px;
+    height: 600px;
+}
+.thongminh1{
+    margin-top: 20px;
+    display: flex;
+}
+.tm1{
+    float: left;
+    margin-bottom: 30px;
+}
+.tm1 img{
+    width: 590px;
+    height: 350px;
+    margin-right: 20px;
+}
+.tm1 h5{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.tm2{
+    float: right;
+    margin-bottom: 30px;
+}
+.tm2 img{
+    width: 590px;
+    height: 350px;
+}
+.tm2 h5{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.thongminh2{
+    margin-top: -20px;
+    background-color:  #f7f2f2;
+}
+.tm{
+    margin-top: 20px;
+    display: flex;
+}
+.tm3{
+    float: left;
+    margin-bottom: 30px;
+}
+.tm3 img{
+    width: 590px;
+    height: 350px;
+    margin-right: 20px;
+}
+.tm3 h5{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.tm4{
+    float: right;
+    margin-bottom: 30px;
+}
+.tm4 img{
+    width: 590px;
+    height: 350px;
+}
+.tm4 h5{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.tienich{
+    border-top: 1px solid grey;
+    margin-top: 40px;
+    background-color: #f7f2f2;
+}
+.tienich h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.tienich h4{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.tienich img{
+    width: 1200px;
+    height: 600px;
+}
+
+.ngoaithat{
+    margin-top: 40px;
+    background-color:  #f7f2f2;
+}
+.ngoaithat1{
+    display: flex;
+    margin-top: 20px;
+}
+.nt1{
+    float: left;
+    width: 380px;
+    height: 370px;
+    margin-right: 35px;
+}
+.xe1{
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.nt1 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.xe1 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.nt2{
+ 
+    float: left;
+    width: 380px;
+    height: 370px;
+    margin-right: 25px;
+    
+}
+.xe2{
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.xe2 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.nt2 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.nt3{
+   
+    float: right;
+    width: 380px;
+    height: 370px;
+    margin-left: 10px; 
+    
+}
+.xe3{
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.xe3 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.nt3 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.ngoaithat2{
+    margin-top: -20px;
+    background-color:  #f7f2f2;
+}
+.nt{
+    display: flex;
+    margin-top: 20px;
+}
+.nt4{
+    float: left;
+    width: 380px;
+    height: 370px;
+    margin-right: 35px;
+}
+.xe4{
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.nt4 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.xe4 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.nt5{
+    float: left;
+    width: 380px;
+    height: 370px;
+    margin-right: 25px;
+    
+}
+.xe5{
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.xe5 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.nt5 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.nt6{
+   
+    float: right;
+    width: 380px;
+    height: 370px;
+    margin-left: 10px; 
+    
+}
+.xe6{
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.xe6 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.nt6 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.matsau{
+    border-top: 1px solid grey;
+    margin-top: 40px;
+    background-color:  #f7f2f2;
+}
+.matsau h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.matsau h3{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.matsau img{
+    width: 1200px;
+    height: 700px;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.matsau1{
+    margin-top: 20px;
+    display: flex;
+}
+.ms1{
+    float: left;
+    width: 380px;
+    height: 370px;
+    margin-right: 35px;
+}
+.xe7{
+    background-color: #fff;
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-left: 23px;
+    z-index: 2;
+    position: absolute;
+}
+.ms1 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+    z-index: 1;
+    position: relative;
+}
+.xe7 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.xe7 p{
+    line-height: 20px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.ms2{
+    float: left;
+    width: 380px;
+    height: 370px;
+    margin-right: 25px;
+    
+}
+.xe8{
+    background-color: #fff;
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-left: 23px;
+    z-index: 2;
+    position: absolute;
+}
+.xe8 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.xe8 p{
+    line-height: 20px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.ms2 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.ms3{
+   
+    float: right;
+    width: 380px;
+    height: 370px;
+    margin-left: 10px; 
+    
+}
+.xe9{
+    background-color: #fff;
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-left: 23px;
+    z-index: 2;
+    position: absolute;
+}
+.xe9 h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.xe9 p{
+    line-height: 20px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.ms3 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.noithat{
+    border-top: 1px solid grey;
+    margin-top: 50px;
+    background-color:  #f7f2f2;
+}
+.noithat h3{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.noithat1 {
+    display: flex;
+    margin-top: 20px;
+}
+.noithat1 img{
+    height: 400px;
+    width: 600px;
+    float: left;
+}
+.noithat1 p{
+    float: right;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 100px;
+}
+.noithat2{
+    display: flex;
+
+}
+.noithat2 img{
+    height: 400px;
+    width: 600px;
+    float: right;
+}
+.noithat2 p{
+    float: left;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 100px;
+}
+.noithat3{
+    display: flex;
+
+}
+.noithat3 img{
+    height: 400px;
+    width: 600px;
+    float: left;
+}
+.noithat3 p{
+    float: right;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 100px;
+}
+.vanhanh{
+    border-top: 1px solid grey;
+    margin-top: 40px;
+    background-color: #f7f2f2;
+}
+.vanhanh h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.vanhanh h4{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.vanhanh img{
+    width: 1200px;
+    height: 600px;
+    object-fit: cover;
+}
+.vanhanh1{
+    margin-top: 20px;
+    display: flex;
+}
+.vh1{
+    float: left;
+}
+.vh1 img{
+    position: relative;
+    z-index: 1;
+    width: 590px;
+    height: 350px;
+    filter: brightness(0.6);
+}
+.vh1 li{
+    width: 400px;
+    box-sizing: border-box;
+    list-style: none;
+    position: absolute;
+    z-index: 2;
+    margin-left: 100px;
+}
+.vh1 h5{
+    font-size: 20px;
+    color: white;
+    text-align: center; 
+    margin-top: -200px;
+}
+.vh1 p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 5px;
+    color: white;
+}
+.vh2{
+    float: right;
+    margin-left: 20px;
+}
+.vh2 img{
+    width: 590px;
+    height: 350px;
+    filter: brightness(0.6);
+    position: relative;
+    z-index: 1;
+}
+.vh2 li{
+    width: 400px;
+    box-sizing: border-box;
+    list-style: none;
+    position: absolute;
+    z-index: 2;
+    margin-left: 100px;
+}
+.vh2 h5{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: -200px;
+}
+.vh2 p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 5px;
+    color: white;
+}
+.antoan{
+    border-top: 1px solid grey;
+    margin-top: 40px;
+    background-color:  white;
+    height: 500px;
+}
+.antoan h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.antoan1{
+    display: flex;
+    margin-top: 20px;
+}
+.at1{
+    float: left;
+    width: 380px;
+    height: 370px;
+    margin-right: 35px;
+}
+.xe10{
+    
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 23px;
+    
+}
+.at1 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+    
+}
+.xe10 h4{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.xe10 p{
+    line-height: 25px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.at2{
+ 
+    float: left;
+    width: 380px;
+    height: 370px;
+    margin-right: 25px;
+    
+}
+.xe11{
+    
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 23px;
+   
+}
+.xe11 h4{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.xe11 p{
+    line-height: 25px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.at2 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.at3{
+   
+    float: right;
+    width: 380px;
+    height: 370px;
+    margin-left: 10px; 
+    
+}
+.xe12{
+    
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 23px;
+   
+}
+.xe12 h4{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.xe12 p{
+    line-height: 25px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.at3 img{
+    width: 376px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.congdung{
+    margin-top: 30px;
+    background-color:  #f7f2f2;
+}
+.congdung1 {
+    display: flex;
+    margin-top: 20px;
+}
+.congdung1 img{
+    height: 400px;
+    width: 600px;
+    float: left;
+}
+.congdung1 p{
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 50px;
+}
+.congdung2{
+    display: flex;
+
+}
+.congdung2 img{
+    height: 400px;
+    width: 600px;
+    float: right;
+}
+.congdung2 p{
+    float: left;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 50px;
+}
+.congdung3{
+    display: flex;
+
+}
+.congdung3 img{
+    height: 400px;
+    width: 600px;
+    float: left;
+}
+.congdung3 p{
+    float: right;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 50px;
+}
+.tiennghi{
+    border-top: 1px solid grey;
+    margin-top: 40px;
+    background-color:  #f7f2f2;
+    height: 1300px;
+}
+.tiennghi h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.tiennghi h4{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-style: normal;
+}
+.tiennghi img{
+    width: 1200px;
+    height: 600px;
+    object-fit: cover;
+}
+.tiennghi1{
+    margin-top: 20px;
+    display: flex;
+}
+.id3{
+    float: left;
+}
+.id3 img{
+    width: 590px;
+    height: 350px;
+}
+.id3 h5{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-style: normal;
+}
+.id3 p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.id4{
+    float: right;
+}
+.id4 img{
+    width: 590px;
+    height: 350px;
+}
+.id4 h5{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-style: normal;
+}
+.id4 p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.manhinh{
+    margin-top: 50px;
+    display: block;
+}
+.manhinh h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    color: red;
+}
+.manhinh h3{
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.manhinh img{
+    width: 1200px;
+    height: 700px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.chiakhoa{
+    background-color: #f7f2f2;
+    margin-top: 40px;
+    height: 700px;
+}
+.chiakhoa1{
+    display: flex;
+    width: 1200px;
+    height: 270px;
+}
+.ck1 img{
+    margin-top: 50px;
+    width: 400px;
+    height: 270px;
+    float: left;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.ck2{
+    height: 270px;
+    background-color: #fff;
+    margin-top: 50px;
+    float: left;
+    width: 400px;
+}
+.ck2 h2{
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 100px;
+}
+.ck2 p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.ck3 img{
+    float: right;
+    width: 400px;
+    height: 270px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.chiakhoa2{
+    display: flex;
+    width: 1200px;
+    height: 270px;
+}
+.ck4{
+    height: 270px;
+    background-color: #fff;
+    margin-top: 50px;
+    float: left;
+    width: 400px;
+}
+.ck4 h2{
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 90px;
+}
+.ck4 p{
+    margin-top: 10px;
+    font-size: 15px; 
+    text-align: center;
+    line-height: 25px;
+}
+.ck5 img{
+    margin-top: 50px;
+    height: 270px;
+    width: 400px;
+    float: left;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.ck6{
+    height: 270px;
+    background-color: #fff;
+    margin-top: 50px;
+    width: 400px;
+    float: right;
+}
+.ck6 h2{
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 90px;
+}
+.ck6 p{
+    margin-top: 10px;
+    font-size: 15px; 
+    text-align: center;
+    line-height: 25px;
+}
+.full{
+    margin-top: 50px;
+}
+.full h1{
+    margin-left: 20px;
+    color: red;
+    font-size: 25px;
+}
+.thumb {
+    margin-bottom: 50px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 1200px;
+    height: 600px;
+}
+.thumb img{
+    margin-top: -100px;
+    width: 1200px;
+    height: 1800px;
+    object-fit: contain;
+}
+.dgsp{
+    display: flex;
+  margin-left: 800px;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.dgsp.post{
+  display: none;
+}
+.dgsp .text{
+    margin-top: -330px;
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.dgsp .edit{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 16px;
+  color: #fe7;
+  font-weight: 500;
+  cursor: pointer;
+}
+.dgsp .edit:hover{
+  text-decoration: underline;
+}
+.dgsp .star-rating input{
+  display: none;
+}
+.star-rating label{
+  font-size: 40px;
+  color: #444;
+  padding: 10px;
+  float: right;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+  color: #fd4;
+}
+input:checked ~ label{
+  color: #fd4;
+}
+input#rate-5:checked ~ label{
+  color: #fe7;
+  text-shadow: 0 0 20px #952;
+}
+#rate-1:checked ~ form headerr:before{
+  content: "Tôi Ghét Sản Phẩm ";
+}
+#rate-2:checked ~ form headerr:before{
+  content: "Tôi Không Thích Sản Phẩm ";
+}
+#rate-3:checked ~ form headerr:before{
+  content: "Sản Phẩm Bình Thường ";
+}
+#rate-4:checked ~ form headerr:before{
+  content: "Sản Phẩm Tốt ";
+}
+#rate-5:checked ~ form headerr:before{
+  content: "Sản Phẩm Tuyệt Vời";
+}
+.dgsp form{
+  display: none;
+  text-align: center;
+
+}
+input:checked ~ form{
+  display: block;
+}
+form headerr{
+  width: 100%;
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  margin: 5px 0 20px 0;
+  text-align: center;
+  transition: all 0.2s ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+form .textarea{
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+}
+form .textarea textarea{
+  height: 200%;
+  width: 100%;
+  outline: none;
+  color: #eee;
+  border: 1px solid #333;
+  background: #222;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+  margin-top: 10px;
+}
+.textarea textarea:focus{
+  border-color: #444;
+}
+form .btnnnn{
+  height: 45px;
+  width: 50%;
+  text-align: center;
+}
+form .btnnnn button{
+  height: 100%;
+  width: 100%;
+  border: 1px solid #444;
+  outline: none;
+  background: #fe7;
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  justify-content: center;
+  margin-left: 85px;
+
+}
+form .btnnnn button:hover{
+  background: #FBFF00;
+}
+.footer__download{
+    display:flex;
+}
+.footer__download-qr{
+    width: 80px;
+    height:80px;
+    border: 1px solid black;
+    margin-top:-30px;
+}
+.footer__download-apps{
+    flex: 1;
+    margin-left: 16px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:-28px;
+}
+.footer__download{
+    flex: 1;
+    margin:16px;
+}
+.footer__download-app-img{
+    height: 16px;
+    margin-top:-30px;
+}
+.footer__download-app-link{
+    color:transparent;
+    text-decoration: none;
+    display: block;
+}
+.end{
+    background-color: black;
+    height: 50px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end p{
+    font-size: 1rem;
+    color: white;
+}
+.header__navbar-item-link{
+    margin-top: 3.99px;
+}
+
+#addtocart{
+    background-color: black;
+    color: azure;
+    padding: 15px 30px;
+    border: 1px solid yellow;
+    /* margin-top: 100px; */
+    margin-left: 100px;
+ }
+
+ #addtocart{
+    cursor: pointer;
+    animation-name: addtocart;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+ }
+
+ @keyframes addtocart{
+    0% {transform: scale(1.1);}
+    50% {transform: scale(1.2);}
+    75% {transform: scale(1.1);}
+    100% {transform: skew(0);}
+ }
+ .fab-wrapper {
+      position: fixed;
+      bottom: 5px;
+      right: 0;
+      z-index: 9999999;
+   }
+   .fab-checkbox {
+      display: none !important;
+   }
+   .fab-checkbox:checked~ .devvn_bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 1;
+   }
+   .fab {
+      width: 60px;
+      max-width: unset;
+      height: 60px;
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      border-radius: 50%;
+      background: black;
+      box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      z-index: 1000;
+      overflow: hidden;
+      transform: rotate(
+            0deg
+      );
+      margin-bottom: 50px;
+      -webkit-transition: all .15s cubic-bezier(.15,.87,.45,1.23);
+      transition: all .15s cubic-bezier(.15,.87,.45,1.23);
+   }
+   .fab-checkbox:checked~.fab {
+      transform: rotate(
+            90deg
+      );
+      -webkit-transition: all .15s cubic-bezier(.15,.87,.45,1.23);
+      transition: all .15s cubic-bezier(.15,.87,.45,1.23);
+   }
+   [class*=icon-cps-] {
+      display: inline-block;
+      vertical-align: middle;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwAAAACECAQAAACNQYRWAAAACXBIWXMAAAsTAAALEwEAmpwYAAALHWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDYwLCAyMDIwLzA1LzEyLTE2OjA0OjE3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMS0wMi0yNlQyMjo0Mjo1NyswNzowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjEtMDItMjdUMTA6MDA6MDcrMDc6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjEtMDItMjdUMTA6MDA6MDcrMDc6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIxIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0iRG90IEdhaW4gMjAlIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmNjNmQ1OGI1LWY1NmMtYjU0NS1hZmIzLTIzMjZkNDE3NzE3NSIgeG1wTU06RG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjJjZmJmOGYxLTM0OGMtMzI0MS1hZWI4LTNkMGIxMTZjNWU5NiIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjFiMjQ1MWY3LTRmODYtNWU0OC04MzQwLTlkYzljMWI3MTE1MyI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6MWIyNDUxZjctNGY4Ni01ZTQ4LTgzNDAtOWRjOWMxYjcxMTUzIiBzdEV2dDp3aGVuPSIyMDIxLTAyLTI2VDIyOjQyOjU3KzA3OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjEuMiAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjU2ZTJkMjJlLTg3NWMtODY0NC05YzlmLWRhZWUzYjg0NWQ4ZCIgc3RFdnQ6d2hlbj0iMjAyMS0wMi0yN1QwOTo1OTo1NCswNzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJjb252ZXJ0ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImZyb20gaW1hZ2UvcG5nIHRvIGFwcGxpY2F0aW9uL3ZuZC5hZG9iZS5waG90b3Nob3AiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImRlcml2ZWQiIHN0RXZ0OnBhcmFtZXRlcnM9ImNvbnZlcnRlZCBmcm9tIGltYWdlL3BuZyB0byBhcHBsaWNhdGlvbi92bmQuYWRvYmUucGhvdG9zaG9wIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo5ODZjZmUzMS01ZmFhLTI1NDUtOTRjNC0wODgyM2NlOTVlYmMiIHN0RXZ0OndoZW49IjIwMjEtMDItMjdUMDk6NTk6NTQrMDc6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4yIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NzE3NmI3ZDEtYjRkYS00ZjRkLTk1YTQtOGY4OGZjNmUzYTkyIiBzdEV2dDp3aGVuPSIyMDIxLTAyLTI3VDEwOjAwOjA3KzA3OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjEuMiAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNvbnZlcnRlZCIgc3RFdnQ6cGFyYW1ldGVycz0iZnJvbSBhcHBsaWNhdGlvbi92bmQuYWRvYmUucGhvdG9zaG9wIHRvIGltYWdlL3BuZyIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iZGVyaXZlZCIgc3RFdnQ6cGFyYW1ldGVycz0iY29udmVydGVkIGZyb20gYXBwbGljYXRpb24vdm5kLmFkb2JlLnBob3Rvc2hvcCB0byBpbWFnZS9wbmciLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmNjNmQ1OGI1LWY1NmMtYjU0NS1hZmIzLTIzMjZkNDE3NzE3NSIgc3RFdnQ6d2hlbj0iMjAyMS0wMi0yN1QxMDowMDowNyswNzowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIDIxLjIgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3MTc2YjdkMS1iNGRhLTRmNGQtOTVhNC04Zjg4ZmM2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)!important;
+      background-repeat: no-repeat;
+      background-size: 453px;
+   }
+   .icon-cps-fab-menu {
+      width: 50px;
+      height: 50px;
+      margin: 0 !important;
+      background-size: 694px;
+      background-position: -649px 0;
+   }
+   .fab-checkbox:checked~.fab .icon-cps-fab-menu {
+      width: 30px;
+      height: 30px;
+      margin: 0;
+      background-size: 615px;
+      background-position: -291px -70px;
+   }
+   .fab-wheel {
+      width: 300px;
+      height: 220px;
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      transform: scale(0);
+      transform-origin: bottom right;
+      transition: all .3s ease;
+      z-index: 12;
+   }
+   .fab-checkbox:checked~.fab-wheel {
+      transform: scale(1);
+   }
+   .fab-wheel .fab-action {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      position: absolute;
+      text-decoration: none;
+   }
+   .fab-wheel .fab-action-1 {
+      top: 0;
+      right: 0;
+   }
+   .fab-title {
+      float: left;
+      margin: 0 5px 0 0;
+      opacity: 0;
+   }
+   .fab-checkbox:checked~.fab-wheel .fab-title {
+      opacity: 1;
+   }
+   .fab-button {
+      width: 45px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      float: left;
+      padding: 4px;
+      border-radius: 50%;
+      background: #0f1941;
+      box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+      font-size: 24px;
+      color: White;
+      transition: all 1s ease;
+      overflow: hidden;
+   }
+   .icon-cps-local {
+      width: 28px;
+      height: 28px;
+      background-position: 0px -49px;
+   }
+   .fab-wheel .fab-button-1 {
+      background: #dd5145;
+   }
+   .fab-wheel .fab-action-2 {
+      top: 40px;
+      left: 85px;
+   }
+ 
+   .fab-wheel .fab-button-2 {
+      background: #fb0;
+   }
+   .icon-cps-phone {
+      width: 28px;
+      height: 28px;
+      background-position: -51px -49px;
+   }
+   .fab-wheel .fab-action-3 {
+      left: 50px;
+      bottom: 70px;
+   }
+   .fab-wheel .fab-button-3 {
+      background: #0f9d58;
+   }
+   .icon-cps-chat {
+      width: 30px;
+      height: 30px;
+      background-position: -369px 0px;
+   }
+   .fab-wheel .fab-action-4 {
+      left: 0;
+      bottom: 0;
+   }
+   .fab-wheel .fab-button-4 {
+      background: #2f82fc;
+   }
+   .icon-cps-chat-zalo {
+      width: 30px;
+      height: 30px;
+      background-position: -362px -1px;
+      background-size: 515px;
+   }
+   .suggestions-chat-box {
+      min-width: 140px;
+      min-height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #1d72e0;
+      border-radius: 10px;
+      background: #277cea;
+      box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      position: fixed;
+      right: 80px;
+      bottom: 7%;
+      z-index: 11;
+   }
+   .hidden {
+      display: none!important;
+   }
+   .align-items-center {
+      -ms-flex-align: center!important;
+      align-items: center!important;
+      -ms-flex-pack: distribute!important;
+      justify-content: space-around!important;
+      display: -ms-flexbox!important;
+      display: flex!important;
+      -webkit-box-align: center!important;
+      -ms-flex-align: center!important;
+      align-items: center!important;
+   }
+   .suggestions-chat-box #btnClose {
+      position: absolute;
+      top: 2px;
+      left: 2px;
+   }
+   i.icon-cps-face {
+      width: 28px;
+      height: 28px;
+      background-position: -177px 0px;
+   }
+   .fab-checkbox:not(:checked)~.fab {
+      animation-name: zoom;
+      -webkit-animation-name: zoom;
+      animation-delay: 0s;
+      -webkit-animation-delay: 0s;
+      animation-duration: 1.5s;
+      -webkit-animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-iteration-count: infinite;
+      cursor: pointer;
+      box-shadow: 0 0 0 0 #c31d1d;
+   }
+   @-webkit-keyframes tada {
+      0% {
+         -webkit-transform: scale(1);
+         transform: scale(1)
+      }
+ 
+      10%,20% {
+         -webkit-transform: scale(.9) rotate(-3deg);
+         transform: scale(.9) rotate(-3deg)
+      }
+ 
+      30%,50%,70%,90% {
+         -webkit-transform: scale(1.1) rotate(3deg);
+         transform: scale(1.1) rotate(3deg)
+      }
+ 
+      40%,60%,80% {
+         -webkit-transform: scale(1.1) rotate(-3deg);
+         transform: scale(1.1) rotate(-3deg)
+      }
+ 
+      100% {
+         -webkit-transform: scale(1) rotate(0);
+         transform: scale(1) rotate(0)
+      }
+   }
+ 
+   @keyframes tada {
+      0% {
+         -webkit-transform: scale(1);
+         -ms-transform: scale(1);
+         transform: scale(1)
+      }
+ 
+      10%,20% {
+         -webkit-transform: scale(.9) rotate(-3deg);
+         -ms-transform: scale(.9) rotate(-3deg);
+         transform: scale(.9) rotate(-3deg)
+      }
+ 
+      30%,50%,70%,90% {
+         -webkit-transform: scale(1.1) rotate(3deg);
+         -ms-transform: scale(1.1) rotate(3deg);
+         transform: scale(1.1) rotate(3deg)
+      }
+ 
+      40%,60%,80% {
+         -webkit-transform: scale(1.1) rotate(-3deg);
+         -ms-transform: scale(1.1) rotate(-3deg);
+         transform: scale(1.1) rotate(-3deg)
+      }
+ 
+      100% {
+         -webkit-transform: scale(1) rotate(0);
+         -ms-transform: scale(1) rotate(0);
+         transform: scale(1) rotate(0)
+      }
+   }
+ 
+   @-webkit-keyframes zoom {
+      0% {
+         transform: scale(.9)
+      }
+ 
+      70% {
+         transform: scale(1);
+         box-shadow: 0 0 0 15px transparent
+      }
+ 
+      100% {
+         transform: scale(.9);
+         box-shadow: 0 0 0 0 transparent
+      }
+   }
+ 
+   @keyframes zoom {
+      0% {
+         transform: scale(.9)
+      }
+ 
+      70% {
+         transform: scale(1);
+         box-shadow: 0 0 0 15px transparent
+      }
+ 
+      100% {
+         transform: scale(.9);
+         box-shadow: 0 0 0 0 transparent
+      }
+   }
+
+</style>
+<body>
+    <div class="fab-wrapper" style="margin-bottom: 20px;">
+        <input id="fabCheckbox" type="checkbox" class="fab-checkbox">
+        <label class="fab" for="fabCheckbox">
+           <i class="icon-cps-fab-menu"></i>
+        </label>
+        <div class="fab-wheel">
+           <a class="fab-action fab-action-1" href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%C3%B4ng+Th%C6%B0%C6%A1ng+TP.+H%E1%BB%93+Ch%C3%AD+Minh+(HUIT)/@10.8061539,106.6260907,17z/data=!3m1!4b1!4m6!3m5!1s0x31752be27d8b4f4d:0x92dcba2950430867!8m2!3d10.8061539!4d106.6286656!16s%2Fm%2F0vb3q34?hl=vi-VN&entry=ttu" rel="nofollow" target="_blank">
+              <span class="fab-title">Tìm công ty</span>
+              <div class="fab-button fab-button-1"><i class="icon-cps-local"></i></div>
+           </a>
+           <a class="fab-action fab-action-2" href="liên hệ.html" rel="nofollow">
+              <span class="fab-title">Gọi trực tiếp</span>
+              <div class="fab-button fab-button-2"><i class="icon-cps-phone"></i></div>
+           </a>
+           <a class="fab-action fab-action-3" href="https://www.facebook.com/nguyen.thingocthanh.79230?mibextid=JRoKGi" target="_blank" rel="nofollow">
+              <span class="fab-title">Chat ngay</span>
+              <div class="fab-button fab-button-3"><i class="icon-cps-chat"></i></div>
+           </a>
+           <a class="fab-action fab-action-4" href="https://zalo.me/0899307224" target="_blank" rel="nofollow">
+              <span class="fab-title">Chat trên Zalo</span>
+              <div class="fab-button fab-button-4"><i class="icon-cps-chat-zalo"></i></div>
+           </a>
+        </div>
+        <div class="suggestions-chat-box hidden" style="display: none;">
+           <div class="box-content d-flex justify-content-around align-items-center">
+              <i class="fa fa-times-circle" aria-hidden="true" id="btnClose" onclick="jQuery('.suggestions-chat-box').hide()"></i>
+              <p class="mb-0 font-14">Liên hệ ngay <i class="fa fa-hand-o-right" aria-hidden="true"></i></p>
+           </div>
+        </div>
+        <div class="devvn_bg"></div>
+     </div>
+    <div class="container">
+        <header>
+            <div id="user">
+                <a href="giohang.html">
+                    <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                    <b id="sosp"></b>
+                </a> 
+            </div>
+        </header>
+        <nav>            
+            <a style="text-decoration: none;" href="index.html" target="page"><i class="fa fa-home" aria-hidden="true" style="font-size:20px; "></i> TRANG CHỦ</a>
+            <a style="text-decoration: none;" href="liên hệ.html" target="page"><i class="fa fa-phone" aria-hidden="true" style="font-size:20px"></i> LIÊN HỆ</a>
+            <a style="text-decoration: none;" href="giới thiệu.html" target="page"><i class="fa-solid fa-pen-to-square" aria-hidden="true" style="font-size:20px"></i> GIỚI THIỆU</a>
+            <a style="text-decoration: none;" href="đăng kí.html" target="page"> <i class="fa fa-user" aria-hidden="true" style="font-size:20px"></i> ĐĂNG KÝ</a> 
+            <a style="text-decoration: none;" href="đăng nhập.html" target="page"><i class="fa fa-user" aria-hidden="true" style="font-size:20px"></i> ĐĂNG NHẬP</a> 
+            <ul class="header__navbar-list">
+                <li class="header__navbar-item header__navbar-item--has-notify" style="z-index: 9999;">
+                    <a href="" class="header__navbar-item-link">
+                        <i class="header__navbar-icon fa-solid fa-bell"></i> 
+                        THÔNG BÁO
+                    </a>
+                    <div class="header__notify">
+                        <header class="header__notify-header">
+                            <h3>Thông báo mới nhận</h3>
+                        </header>
+                        <ul class="header__notify-list">
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="tucson.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Tucson.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name">TUCSON</span>
+                                        <span class="header__notify-desriotion">Khi mua xe được làm giấy tờ miễn phí</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="creta.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Creta.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name">CRETA</span>  
+                                        <span class="header__notify-desriotion">Trải nghiệm xe tại store trong tháng 6</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="custin.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/custin.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name">CUSTIN</span>  
+                                        <span class="header__notify-desriotion">Ưu dãi về giá trong tháng 5</span>
+                                    </div>
+                                </a>
+                            </li>
+                       </ul>
+                       <footer class="header__notify-footer">
+                        <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                       </footer>
+                    </div>
+                </li>        
+            </ul>
+            <ul class="header__navbar-list" >
+                <li class="header__navbar-item header__navbar-item--has-notify" style="z-index: 9999;">
+                    <a href="" class="header__navbar-item-link">
+                        <i class="fa-solid fa-car" style="font-size: 20px;"></i>
+                        SẢN PHẨM
+                    </a>
+                    <div class="header__notify" style="width: 800px">
+                        <header class="header__notify-header">
+                            <h3 style="text-align: center;">Sản Phẩm</h3>
+                        </header>
+                        <ul class="header__notify-list" id="list">
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="tucson.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Tucson.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">TUCSON</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="creta.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Creta.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">CRETA</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="custin.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/custin.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">CUSTIN</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="grand i10 sedan.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Grand-i10-Sedand-i10-Sedan-1.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">GRAND I10 SEDAN</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="grand i10 hatchback.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Grand-i10.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">GRAND I10 HATCHBACK</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="venue.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Venue.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">VENUE</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="elantra.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/allnewelantra.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">ALL NEW ALANTRA</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="ioniq 5.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/IONIQ51.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">HYUNDAI IONIQ 5</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="palisade.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/palisade.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">PALISADE</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="stargazer.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/hyundaistargazer.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">STARGAZER</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="santafe.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Santa-Fe.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">SANTAFE</span>  
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="header__notify-item header__notify-item--viewed">
+                                <a href="accent.html" class="header__notify-link">
+                                    <img src="assets/img sản phẩm/Accent.png" alt="" class="header__notify-img">
+                                    <div class="header__notify-info">
+                                        <span class="header__notify-name" style="margin-top: 15px;">ACCENT</span>  
+                                    </div>
+                                </a>
+                            </li>   
+                       </ul>
+                       <footer class="header__notify-footer">
+                        <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                       </footer>
+                    </div>
+                </li>    
+            </ul>
+        </nav>
+        
+        <div class="main">
+            <div class="main1">
+                <img id="slide1" src="./assets/img sản phẩm/Creta/hyundai-creta-mau-den.png" alt="1">
+                <img id="slide2" src="./assets/img sản phẩm/Creta/mau-xe-Hyundai-creta-2.png" alt="2">
+                <img id="slide3" src="./assets/img sản phẩm/Creta/mau-xe-Hyundai-creta-3.png" alt="3">
+                <img id="slide4" src="./assets/img sản phẩm/Creta/mau-xe-Hyundai-creta-4.png" alt="4">
+                <img id="slide5" src="./assets/img sản phẩm/Creta/mau-xe-Hyundai-creta-5.png" alt="5">
+                <img id="slide6" src="./assets/img sản phẩm/Creta/mau-xe-Hyundai-creta-6.png" alt="6">
+            </div>
+            <div class="slide-nav">
+                    <a href="#slide1"></a>
+                    <a href="#slide2"></a>
+                    <a href="#slide3"></a>
+                    <a href="#slide4"></a>
+                    <a href="#slide5"></a>
+                    <a href="#slide6"></a>
+            </div>
+            <div class="main2" idsp="2" gia="599000000">
+                <img src="assets/img sản phẩm/Creta.png" alt="" style="display: none;">
+                <h3 style="text-align: center;">CRETA</h3><br>
+                <h4 style="text-align: center; margin-left: -280px;">Giá từ: <span style="color: red;">599.000.000 VNĐ</span></h4>
+                <table>
+                    <tr>
+                        <td><b>Kiểu dáng:</b> B-SUV</td>
+                        <td><b>Kích thước:</b> 4.315x1.790x1.660 (mm)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Hộp số:</b> Tự động 6 cấp</td>
+                        <td><b>Nhiên liệu:</b> Xăng</td>
+                    </tr>
+                    <tr>
+                        <td><b>Mức tiêu hao:</b> 10L</td>
+                        <td><b>Tình trạng:</b> có xe sẵn</td>
+                    </tr> 
+                </table>
+                <li>          
+                    <a href="#slide1"><p style="background-color: black;"></p>Màu đen</a>
+                    <a href="#slide2"><p style="background-color: silver;"></p>Màu bạc</a>
+                    <a href="#slide3"><p style="background-color: red;"></p>Màu đỏ</a>
+                    <a href="#slide4"><p style="background-color: white;"></p>Màu trắng</a>
+                    <a href="#slide5"><p style="background-color: grey;"></p>Màu xám</a>
+                    <a href="#slide6"><p style="background-color: blue;"></p>Màu xanh dương</a>
+                </li>
+                <button id="addtocart">Mua hàng</button>
+                <div class="main3"><a href="lái thử.html" style="text-decoration: none;border: 2px solid rgb(40, 61, 104);background-color:rgb(40, 61, 104);font-size: 20px;color: #fff; text-align: center; margin: 0 100px; padding-left: 10px; padding: 20px 10px 20px 10px; margin-top: 9px; ">ĐĂNG KÍ LÁI THỬ</a></div>
+             </div>
+        </div>
+        <div class="foot">
+            <h1>Giá bán của Huyndai tại T2Q Store</h1>
+            <table>
+                <tr>
+                    <td><b>Phiên bản</b></td>
+                    <td><b>Giá xe Huyndai Creta</b></td>
+                    <td><b>Giá khuyến mãi</b></td>
+                </tr>
+                <tr>
+                    <td>Huyndai Creta 1.5L Tiêu chuẩn</td>
+                    <td><strike>599.000.000</strike></td>
+                    <td>580.000.000</td>
+                </tr>
+                <tr>
+                    <td>Huyndai Creta 1.5L Đặc biệt</td>
+                    <td><strike>650.000.000</strike></td>
+                    <td>630.000.000</td>
+                </tr>
+                <tr>
+                    <td>Huyndai Creta 1.5L Cao cấp</td>
+                    <td><strike>699.000.000</strike></td>
+                    <td>677.000.000</td>
+                </tr>
+            </table>
+            <div class="footten">
+            <div class="foot1">
+                <h1>KHUYẾN MÃI</h1>
+                <span>(Giá và khuyến mãi dự kiến áp dụng tới hết <b>30/04/2024</b>)</span>
+                <p><img src="assets/img sản phẩm/Gift@2x.png" alt="">Giảm tiền mặt</p>
+                <p><img src="assets/img sản phẩm/Gift@2x.png" alt="">Ưu đãi lãi suất hấp dẫn</p>
+                <p><img src="assets/img sản phẩm/Gift@2x.png" alt="">Trả trước từ 150.000.000đ</p>
+                <p><img src="assets/img sản phẩm/Gift@2x.png" alt="">Tặng phụ kiện theo xe</p>
+                <p>Liên hệ tư vấn chi tiết: <a style="color: red;">0938.008.168</a></p>
+            </div>
+            <div class="foot2">
+                <h1>DỊCH VỤ</h1>
+                <label for="cars">Dòng Xe:</label>
+                <select id="cars" name="carlist" form="carform" class="car">
+                    <option value="accent1">Huyndai Creta 1.5L Tiêu chuẩn</option>
+                    <option value="accent2">Huyndai Creta 1.5L Đặc biệt</option>
+                    <option value="accent3">Huyndai Creta 1.5L Cao cấp</option>
+                </select>
+                <label for="cars">Màu Xe:</label>
+                <select id="cars" name="carlist" form="carform" class="car">
+                    <option value="accent1">Màu đen</option>
+                    <option value="accent2">Màu bạc</option>
+                    <option value="accent3">Màu đỏ</option>
+                    <option value="accent4">Màu trắng</option>
+                    <option value="accent5">Màu xám</option>
+                    <option value="accent6">Màu xanh dương</option>
+                </select>
+                <label for="cars">Nơi đăng kí:</label>
+                <select id="cars" name="carlist" form="carform" class="car">
+                    <option value="accent1">Hồ Chí Minh</option>
+                    <option value="accent2">Tỉnh khác</option>
+                </select>
+                <p><a href="tư vấn.html">TƯ VẤN CHI TIẾT</a></p>
+            </div>
+            </div>
+        </div>
+        <div class="tieude">
+            <h1>THƯ VIỆN ẢNH</h1>
+        </div>
+        <div>
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="assets/noithat/creta/ngoaithat/IMG_9255-1200x800.jpg" alt="1">
+                </div>
+                <div class="item">
+                    <img src="assets/noithat/creta/ngoaithat/IMG_9256.jpg" alt="2">
+                </div>
+                <div class="item">
+                    <img src="assets/noithat/creta/ngoaithat/IMG_9260-1200x800.jpg" alt="3">
+                </div>
+                <div class="item">
+                    <img src="assets/noithat/creta/ngoaithat/IMG_9271-1-1200x800.jpg" alt="4">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!--<script src="index.js"></script>-->
+        </div>
+        <script src="index1.js"></script>
+        <div class="gioithieu">
+            <h1>VIDEO GIỚI THIỆU</h1>
+            <iframe width="1200" height="600" src="https://www.youtube.com/embed/X_WFmrxTFvk?si=KB5JGlj5w3lDef5j" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="phongcach" style="margin-top: 20px;">
+            <h1>Đỉnh cao của sự tiện nghi và linh hoạt</h1>
+            <h4>Hyundai Creta sở hữu ngoại hình đẹp mắt, thiết kế tối ưu cho góc nhìn rộng cùng nhiều tiện ích hữu dụng.</h4>
+            <div class="phongcach1">
+                <div class="id1">
+                    <img src="assets/noithat/creta/ngoaithat/9.jpg" alt="">
+                    <h5>Ghế da cao cấp</h5>
+                </div>
+                <div class="id2">
+                    <img src="assets/noithat/creta/ngoaithat/10.jpg" alt="">
+                    <h5>Cốp xe rộng rãi</h5>
+                </div>
+            </div>
+        </div>
+        <div class="ketcau">
+            <h1>Khả năng vận hành mượt mà đến ấn tượng</h1>
+            <h4>Khởi động và cảm nhận sự phản ứng mượt mà, phản hồi nhanh chóng của động cơ Smartstream, công nghệ động cơ mới nhất của Hyundai. Sự mượt mà của động cơ SmartStream G1.5 sẽ làm bạn cảm thấy hài lòng</h4>
+            <img src="assets/noithat/creta/ngoaithat/14.jpg" alt="">
+            <h4>Công suất cực đại đạt 115ps tại 6,300 vòng/phút Momen xoắn cực đại đat 144Nm tại 4,500 vòng/phút</h4>
+            <img src="assets/noithat/creta/ngoaithat/15.jpg" alt="">
+        </div>
+        <div class="thongminh">
+            <h1>Hyundai SmartSense</h1>
+            <h4>The all-new CRETA mang đến một loạt các cải tiến của hệ thống SmartSense</h4>
+            <img src="assets/noithat/creta/ngoaithat/20.png" alt="">
+            <div class="thongminh1">
+                <div class="tm1">
+                    <img src="assets/noithat/creta/ngoaithat/21.png" alt="">
+                    <h5>Khởi hành ngang dốc</h5>
+                </div>
+                <div class="tm2">
+                    <img src="assets/noithat/creta/ngoaithat/cam-bien-do-xe.png" alt="">
+                    <h5>Hệ thống cảm biến đỗ xe</h5>
+                </div>
+            </div>
+        </div>
+        <div class="thongminh2">
+            <div class="tm">
+                <div class="tm3">
+                    <img src="assets/noithat/creta/ngoaithat/23-1.png" alt="">
+                    <h5>Hệ thống 6 túi khí</h5>
+                </div>
+                <div class="tm4">
+                    <img src="assets/noithat/creta/ngoaithat/22.jpg" alt="">
+                    <h5>Cảm biến áp suất lốp TPMS</h5>
+                </div>
+            </div>
+        </div>
+        <div class="tienich">
+            <h1>Tiện nghi sang trọng</h1>
+            <h4>CRETA cung cấp các tính năng cao cấp như Hệ thống âm thanh cao cấp BOSE, làm mát ghế, màn hình giải trí và màn hình thông minh kích thước 10.25 inch để hỗ trợ trải nghiệm lái xe ở cấp độ cao hơn.</h4>
+            <img src="assets/noithat/creta/ngoaithat/24.jpg" alt="">
+        </div>
+        <div class="ngoaithat">
+            <div class="ngoaithat1">
+                <div class="nt1">
+                    <img src="assets/noithat/creta/noithat/25.jpg" alt="">
+                    <div class="xe1">
+                        <h4>Phanh tay điện tử cùng Autohold</h4>
+                    </div>
+                </div>
+                <div class="nt2">
+                    <img src="assets/noithat/creta/noithat/13.jpg" alt="">
+                    <div class="xe2">
+                        <h4>Màn hình thông tin Full Digital 10.25 inch</h4>
+                    </div>
+                </div>
+                <div class="nt3">
+                    <img src="assets/noithat/creta/noithat/12.jpg" alt="">
+                    <div class="xe3">
+                        <h4>Màn hình giải trí 10.25 inch</h4>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="ngoaithat2">
+            <div class="nt">
+                <div class="nt4">
+                    <img src="assets/noithat/creta/noithat/28.jpg" alt="">
+                    <div class="xe4">
+                        <h4>Hệ thống loa Bose cao cấp</h4>
+                    </div>
+                </div>
+                <div class="nt5">
+                    <img src="assets/noithat/creta/noithat/27.jpg" alt="">
+                    <div class="xe5">
+                        <h4>Khởi động bằng nút bấm</h4>
+                    </div>
+                </div>
+                <div class="nt6">
+                    <img src="assets/noithat/creta/noithat/26.jpg" alt="">
+                    <div class="xe6">
+                        <h4>Làm mát hàng ghế trước</h4>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="full">
+            <h1>VIEW FULLSCREEN</h1>
+            <div class="thumb"><img src="assets/noithat/creta/ngoaithat/2023-02-23_11-20-19.jpg" alt=""></div>
+        </div>
+        <div class="danhgia">
+            <h1 style="text-align: center; margin-bottom: 20px; color: red">ĐÁNH GIÁ SẢN PHẨM TẠI ĐÂY</h1>
+        </div>
+        <div style="background-color: #f7f2f2; height: 400px;">
+            <div>
+                <img src="assets/img sản phẩm/Creta/hyundai-creta-mau-den.png" alt="" width="1000px" height="500px" style="margin-top: -60px; margin-left: -100px;">
+            </div>
+            <div class="dgsp" style="margin-top: -60px;">
+              <div class="than">
+                <div class="post">
+                  <div class="text">ĐÁNH GIÁ</div>
+                  <!-- <div class="edit"><i class="fas fa-edit"></i></div> -->
+                </div>
+                <div class="star-rating">
+                  <input type="radio" name="rate" id="rate-5">
+                  <label for="rate-5" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-4">
+                  <label for="rate-4" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-3">
+                  <label for="rate-3" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-2">
+                  <label for="rate-2" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-1">
+                  <label for="rate-1" class="fas fa-star"></label>
+                  <form action="#">
+                    <headerr></headerr>
+                    <div class="textarea">
+                      <textarea cols="30" placeholder="Miêu tả nhận xét của bạn về sản phẩm"></textarea>
+                    </div>
+                    <div class="btnnnn">
+                      <button type="submit">GỬI</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<footer class="footer1" style="background-image: linear-gradient(black,grey); margin-top: 70px;">
+    <div class="container">
+        <div class="container__row">
+            <div class="container__colum-2-4">
+                <h3 class="tieude1">THÔNG TIN LIÊN HỆ</h3>
+                <ul class="list">
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Kinh doanh: 0938.008.168</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Đặt hẹn dịch vụ: 0938.008.168</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Hỗ trợ bảo hiểm: 0938.008.168</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">CSKH: 0938.008.168</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Liên lạc trụ sở chính qua liên hệ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container__colum-2-4">
+                <h3 class="tieude1">DỊCH VỤ</h3>
+                <ul class="list">
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Dịch vụ bảo dưỡng</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Dịch vụ bảo hành</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Phụ tùng chính hãng</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Đặt lịch hẹn</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Chăm sóc khách hàng</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Tư vấn dịch vụ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container__colum-2-4">
+                <h3 class="tieude1">ĐĂNG KÍ</h3>
+                <ul class="list">
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Đăng kí báo giá lăn bánh xe</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Đăng kí tư vấn trả góp</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Đăng kí nhận tin khuyến mãi</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Đăng kí lái thử xe</a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">Đăng kí đặt lịch hẹn dịch vụ</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="container__colum-2-4">
+                <h3 class="tieude1">THEO DÕI</h3>
+                <ul class="list">
+                    <li class="item-list">
+                        <a href="" class="item-list__link">
+                            <i class="item-icon fa-brands fa-facebook"></i>
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">
+                            <i class="item-icon fa-brands fa-instagram"></i>
+                            Instagram
+                        </a>
+                    </li>
+                    <li class="item-list">
+                        <a href="" class="item-list__link">
+                            <i class="item-icon fa-brands fa-linkedin"></i>
+                            Linkedin
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container__colum-2-4">
+                <h3 class="tieude1">Vào cửa hàng ứng dụng</h3>
+                <div class="footer__download">
+                    <img src="assets/img/qr_code.png" alt="QR Code" class="footer__download-qr">
+                    <div class="footer__download-apps">
+                        <a href="" class="footer__download-app-link">
+                            <img src="assets/img/google_play.png" alt="Gg Play" class="footer__download-app-img">
+                        </a>
+                        <a href="" class="footer__download-app-link">
+                            <img src="assets/img/app_store.png" alt="App Store" class="footer__download-app-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p class="footer__text">T2Q STORE / Huit © 2023. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="backtop">
+    <i class="fa-solid fa-chevron-up"></i>
+</div>
+</html>
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+           if($(this).scrollTop()){
+            $('#backtop').fadeIn();
+           } else{
+            $('#backtop').fadeOut();
+           }
+        });
+        $("#backtop").click(function(){
+            $('html, body').animate({scrollTop:0},1000);
+        });
+    });
+</script>
+<script>
+    var arrButton = document.querySelectorAll(".main2 button");
+    for (i = 0; i< arrButton.length; i++) {
+        btn = arrButton[i];
+        btn.onclick = function() {
+            divmenu2 = this.parentElement;
+            idsp = divmenu2.getAttribute("idsp");
+            giasp = divmenu2.getAttribute("gia");
+            tensp = divmenu2.children[1].innerText;
+            hinhsp = divmenu2.children[0].src;
+            console.log(idsp, tensp, giasp, hinhsp);
+            var arrsp = []
+            str = localStorage.getItem("cart");
+            if (str != null) arrsp = JSON.parse(str);
+            // kiem tra gio hang, ko thi them cos thi tang so luong
+            index = arrsp.findIndex(menu2 => menu2[0] == idsp); //-1 khong co , >=0 co
+            if (index == -1) { //sp chua co trong gio
+                arrsp.push([idsp, tensp, hinhsp, giasp, soluong = 1]);
+            } else arrsp[index][4]++; //tanng so luong len 1
+            localStorage.setItem("cart", JSON.stringify(arrsp));
+            document.getElementById("sosp").innerHTML = arrsp.length+' '+' '+ 'sản phẩm'
+        }
+    }
+</script> 
+

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/c9f5871d83.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="Website Icon" type="png" href="https://i.pinimg.com/564x/4e/d5/39/4ed5397f808ef00d6e0f1ade963a8215.jpg">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('../assets/img/dk.png');
+        }
+
+        .form {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            padding: 40px;
+            transform: translate(-50%, -50%);
+            background: none;
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+            border-radius: 10px;
+            background-image: linear-gradient(black, grey);
+        }
+
+        .form input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 13px;
+            color: #fff;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .nhap label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            pointer-events: none;
+            transition: 0.5s;
+        }
+
+        .nhap input:focus~label,
+        .nhap input:valid~label {
+            top: -20px;
+            left: 0;
+            color: #ffb840;
+            font-size: 16px;
+        }
+
+        .nhap {
+            position:relative;
+        }
+
+        .nhap span{
+            position: absolute;
+            top:100%;
+            right:0;
+        }
+        .form .message {
+            margin: 15px 0 0;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        form .message a {
+            color: aqua;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .btn {
+            position: relative;
+            display: inline-block;
+            padding: 10px 20px;
+            color: aqua;
+            font-size: 16px;
+            text-decoration: none;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 15px;
+            letter-spacing: 2px;
+            border-radius: 5px solid grey;
+        }
+
+        .btn:hover {
+            background: black;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px blue,
+                0 0 25px blue,
+                0 0 50px blue,
+                0 0 100px blue;
+        }
+
+        .btn span {
+            position: absolute;
+            display: block;
+        }
+
+        .btn span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #289bb8);
+            animation: btn-anim1 1s linear infinite;
+        }
+
+        @@keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+
+        .btn span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #289bb8);
+            animation: btn-anim2 1s linear infinite;
+            animation-delay: .25s;
+        }
+
+        @@keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+
+        .btn span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #289bb8);
+            animation: btn-anim3 1s linear infinite;
+            animation-delay: .5s;
+        }
+
+        @@keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+
+        .btn span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #289bb8);
+            animation: btn-anim4 1s linear infinite;
+            animation-delay: .75s;
+        }
+
+        @@keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+
+        span i {
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .forget {
+            margin-top: -10px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 5px;
+            color: white;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div>@RenderBody()</div>
+    <div class="login-page">
+        <div class="form">
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-danger text-danger">
+                    @ViewBag.Message
+                </div>
+            }
+
+            <form class="register-form" method="post" asp-controller="Account" asp-action="Login">
+                <h2>Login</h2>
+
+                <div class="nhap">
+                    <input type="text" id="username" name="username" required />
+                    <label>Username</label>
+                    <span><i class="fa-solid fa-user"
+                            style=" font-size: 18px; color: white"></i></span>
+                </div>
+
+                <div class="nhap">
+                    <input type="password" id="password" name="password" required />
+                    <label>Password</label>
+                    <span><i class="fa-solid fa-eye" id="bg" style=" color: white"
+                            onclick="showHint()" aria-hidden="true"></i></span>
+                </div>
+
+                <div class="forget">
+                    <label
+                        style="font-family:Arial, Helvetica, sans-serif; font-size: 15px; display:flex; margin-top: 12px; color: white"><input
+                            style="margin-top: 3px;" type="checkbox">Remember</label>
+                    <a href="#" style="font-family:Arial, Helvetica, sans-serif; text-decoration: none;"
+                        class="link">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn">
+                    <span></span><span></span><span></span><span></span>
+                    Login
+                </button>
+
+                <p class="message">Not registered? <a asp-controller="Account" asp-action="Register">Create an
+                        account</a></p>
+            </form>
+        </div>
+    </div>
+    @* <!-- Nút đăng nhập bằng nhận diện khuôn mặt -->
+    <button type="button" class="btn" id="loginFaceButton">
+    <span></span><span></span><span></span><span></span>
+    Login with Face Recognition
+    </button>
+
+    <!-- Video và canvas để chụp ảnh khuôn mặt -->
+    <div id="faceLogin" style="display: none; margin-top: 20px;">
+    <h3 style="color: white">Quét khuôn mặt để đăng nhập</h3>
+    <div>
+    <video id="video" width="320" height="240" autoplay></video>
+    <button type="button" class="btn" id="capture">Capture Photo</button>
+    </div>
+    <canvas id="canvas" width="320" height="240" style="display:none;"></canvas>
+    <img id="photo" alt="Captured Photo" style="display:none;" />
+
+    <!-- Form để gửi dữ liệu khuôn mặt (base64) -->
+    <form method="post" asp-controller="Account" asp-action="LoginWithFaceRecognition">
+    <input type="hidden" id="faceData" name="faceData" />
+    <button type="submit" class="btn">
+    <span></span><span></span><span></span><span></span>
+    Confirm and Login with Face
+    </button>
+    </form>
+    </div>
+
+    <script>
+    // Hiển thị phần đăng nhập bằng khuôn mặt khi nhấn vào nút
+    document.getElementById("loginFaceButton").addEventListener("click", function () {
+    document.getElementById("faceLogin").style.display = "block";
+    });
+
+    var video = document.getElementById('video');
+    var canvas = document.getElementById('canvas');
+    var photo = document.getElementById('photo');
+    var captureButton = document.getElementById('capture');
+    var faceDataInput = document.getElementById('faceData');
+
+    // Yêu cầu quyền truy cập webcam
+    navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function (stream) {
+    video.srcObject = stream;
+    })
+    .catch(function (err) {
+    console.log("Error accessing webcam: " + err);
+    });
+
+    // Chụp ảnh từ webcam
+    captureButton.addEventListener('click', function () {
+    var context = canvas.getContext('2d');
+    context.drawImage(video, 0, 0, 320, 240);
+
+    // Chuyển đổi ảnh thành chuỗi base64
+    var dataUrl = canvas.toDataURL('image/jpeg');
+    photo.setAttribute('src', dataUrl);
+    photo.style.display = 'block';
+
+    // Lưu chuỗi base64 vào input ẩn để gửi về server
+    faceDataInput.value = dataUrl;
+    });
+    </script> *@
+
+    <script>
+        var st = false;
+
+        function showHint() {
+            var passwordInput = document.getElementById("password");
+            if (st) {
+                passwordInput.setAttribute("type", "password");
+                document.getElementById("bg").style.color = "white";
+                st = false;
+            } else {
+                passwordInput.setAttribute("type", "text");
+                document.getElementById("bg").style.color = "black";
+                st = true;
+            }
+        }
+    </script>
+</body>
+
+</html>

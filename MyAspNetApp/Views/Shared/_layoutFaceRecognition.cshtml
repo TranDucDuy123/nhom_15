@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xác Thực Khuôn Mặt</title>
+    <script src="https://kit.fontawesome.com/c9f5871d83.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="Website Icon" type="png" href="https://i.pinimg.com/564x/4e/d5/39/4ed5397f808ef00d6e0f1ade963a8215.jpg">
+    <style>
+        /* Thêm CSS tùy chỉnh ở đây */
+        body {
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+        }
+
+        #video {
+            width: 320px;
+            height: 240px;
+        }
+
+        #canvas {
+            display: none;
+        }
+
+        .btn {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Xác Thực Khuôn Mặt</h2>
+    <video id="video" autoplay></video>
+    <button type="button" class="btn" id="capture">Chụp Ảnh</button>
+    <canvas id="canvas" width="320" height="240"></canvas>
+    <img id="photo" alt="Captured Photo" style="display:none;" />
+    <form method="post" asp-controller="Account" asp-action="LoginWithFaceRecognition">
+        <input type="hidden" id="faceData" name="faceData" />
+        <button type="submit" class="btn">Xác Thực và Đăng Nhập</button>
+    </form>
+
+    <script>
+        var video = document.getElementById('video');
+        var canvas = document.getElementById('canvas');
+        var faceDataInput = document.getElementById('faceData');
+        @RenderBody()
+
+        // Yêu cầu quyền truy cập webcam
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+                video.srcObject = stream;
+            })
+            .catch(function (err) {
+                console.log("Error accessing webcam: " + err);
+            });
+
+        // Chụp ảnh từ webcam
+        document.getElementById('capture').addEventListener('click', function () {
+            var context = canvas.getContext('2d');
+            context.drawImage(video, 0, 0, 320, 240);
+
+            // Chuyển đổi ảnh thành chuỗi base64
+            var dataUrl = canvas.toDataURL('image/jpeg');
+            faceDataInput.value = dataUrl; // Lưu chuỗi base64 vào input ẩn
+        });
+    </script>
+</body>
+
+</html>

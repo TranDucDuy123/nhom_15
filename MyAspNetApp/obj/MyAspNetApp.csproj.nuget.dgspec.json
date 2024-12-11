@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\project\\Nhóm 15\\Nhóm 15\\MyAspNetApp\\MyAspNetApp.csproj": {}
+  },
+  "projects": {
+    "D:\\project\\Nhóm 15\\Nhóm 15\\MyAspNetApp\\MyAspNetApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\project\\Nhóm 15\\Nhóm 15\\MyAspNetApp\\MyAspNetApp.csproj",
+        "projectName": "MyAspNetApp",
+        "projectPath": "D:\\project\\Nhóm 15\\Nhóm 15\\MyAspNetApp\\MyAspNetApp.csproj",
+        "packagesPath": "C:\\Users\\dyly3\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\Nhóm 15\\Nhóm 15\\MyAspNetApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dyly3\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.9.0.5494, )"
+            },
+            "Emgu.CV.Bitmap": {
+              "target": "Package",
+              "version": "[4.9.0.5494, )"
+            },
+            "Emgu.CV.UI": {
+              "target": "Package",
+              "version": "[4.9.0.5494, )"
+            },
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.9.0.5494, )"
+            },
+            "FluentEmail.Core": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "FluentEmail.Smtp": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.23.50, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[23.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

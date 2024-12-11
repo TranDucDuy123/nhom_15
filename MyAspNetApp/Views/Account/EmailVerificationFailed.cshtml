@@ -1,0 +1,11 @@
+@{
+    ViewBag.Title = "Email Verification Failed";
+}
+
+<h2>Email Verification Failed</h2>
+
+<p>We're sorry, but we couldn't verify your email. This may be due to an expired or invalid verification link.</p>
+<p>Please request a new verification email or contact support if you continue to experience issues.</p>
+
+<a href="@Url.Action("Register", "Account")" class="btn btn-primary">Go to Registration</a>
+<a href="@Url.Action("Login", "Account")" class="btn btn-secondary">Go to Login</a>

@@ -1,0 +1,50 @@
+@{
+    ViewData["Title"] = "AES Test";
+}
+
+<h2>AES Encryption/Decryption Test</h2>
+
+<!-- Form để mã hóa chuỗi -->
+<form asp-action="Encrypt" method="post">
+    <div>
+        <label for="plaintext">Enter Text to Encrypt:</label>
+        <input type="text" id="plaintext" name="plaintext" value="@ViewBag.Plaintext" />
+    </div>
+    <button type="submit">Encrypt</button>
+</form>
+
+@if (ViewBag.EncryptedText != null)
+{
+    <h3>Encryption Result:</h3>
+    <p><strong>Encrypted Text:</strong> @ViewBag.EncryptedText</p>
+    <p><strong>Key (Base64):</strong> @ViewBag.Key</p>
+    <p><strong>IV (Base64):</strong> @ViewBag.IV</p>
+}
+
+<!-- Form để giải mã chuỗi -->
+<form asp-action="Decrypt" method="post">
+    <div>
+        <label for="encryptedText">Encrypted Text:</label>
+        <input type="text" id="encryptedText" name="encryptedText" value="@ViewBag.EncryptedText" />
+    </div>
+    <div>
+        <label for="key">Key (Base64):</label>
+        <input type="text" id="key" name="key" value="@ViewBag.Key" />
+    </div>
+    <div>
+        <label for="iv">IV (Base64):</label>
+        <input type="text" id="iv" name="iv" value="@ViewBag.IV" />
+    </div>
+    <button type="submit">Decrypt</button>
+</form>
+
+@if (ViewBag.DecryptedText != null)
+{
+    <h3>Decryption Result:</h3>
+    <p><strong>Decrypted Text:</strong> @ViewBag.DecryptedText</p>
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <p style="color: red;">@ViewBag.ErrorMessage</p>
+}

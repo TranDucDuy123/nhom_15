@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Test GetNextId";
+}
+
+<h2>Test GetNext Id</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        <strong>Error:</strong> @ViewBag.Error
+    </div>
+}
+else
+{
+    <div class="alert alert-success">
+        <strong>Next Employee ID:</strong> @ViewBag.NextEmployeeId <br />
+        <strong>Next Customer ID:</strong> @ViewBag.NextCustomerId
+    </div>
+}

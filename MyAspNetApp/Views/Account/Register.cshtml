@@ -1,0 +1,111 @@
+@{
+    ViewData["Title"] = "Register";
+}
+@model ChangePasswordViewModel.Models.UserRegisterModel;
+<h2>Register</h2>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">
+        @ViewBag.Message
+    </div>
+}
+
+<form method="post" asp-controller="Account" asp-action="Register">
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" id="username" asp-for="Username" required
+               placeholder="Enter your username" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" asp-for="Password" required
+               placeholder="Enter your password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" class="form-control" id="fullname" asp-for="FullName" required
+               placeholder="Enter your full name" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" asp-for="Email" required
+               placeholder="Enter your email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="text" class="form-control" id="phone" asp-for="Phone" required
+               placeholder="Enter your phone number" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="role">Role</label>
+        <select class="form-control" id="role" asp-for="Role">
+            <option value="guest">Guest</option>
+            <option value="employee">Employee</option>
+        </select>
+        <span asp-validation-for="Role" class="text-danger"></span>
+    </div>
+
+    <!-- Webcam Section -->
+    <div class="form-group">
+        <label>Face Capture</label>
+        <div>
+            <video id="video" width="320" height="240" autoplay></video>
+            <button type="button" class="btn btn-primary" id="capture">Capture Photo</button>
+        </div>
+        <canvas id="canvas" width="320" height="240" style="display:none;"></canvas>
+        <input type="hidden" id="faceData" asp-for="FaceData" />
+        <img id="photo" alt="Captured Photo" style="display:none;" />
+        <span asp-validation-for="FaceData" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+<!-- JavaScript to Capture Photo from Webcam -->
+<script>
+    (function () {
+        var video = document.getElementById('video');
+        var canvas = document.getElementById('canvas');
+        var photo = document.getElementById('photo');
+        var captureButton = document.getElementById('capture');
+        var faceDataInput = document.getElementById('faceData');
+
+        // Request access to webcam
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+                video.srcObject = stream;
+            })
+            .catch(function (err) {
+                console.log("Error accessing webcam: " + err);
+            });
+
+        // Capture photo from video stream
+        captureButton.addEventListener('click', function () {
+            var context = canvas.getContext('2d');
+            context.drawImage(video, 0, 0, 320, 240);
+
+            // Convert captured image to base64
+            var dataUrl = canvas.toDataURL('image/jpeg');
+            photo.setAttribute('src', dataUrl);
+            photo.style.display = 'block';
+
+            // Store base64 image data in hidden input
+            faceDataInput.value = dataUrl;
+        });
+    })();
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
