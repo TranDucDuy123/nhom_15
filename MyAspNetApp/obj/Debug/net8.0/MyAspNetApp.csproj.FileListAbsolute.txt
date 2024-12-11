@@ -257,3 +257,4 @@ D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\refint\MyAspNetApp.dll
 D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.pdb
 D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.genruntimeconfig.cache
 D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\ref\MyAspNetApp.dll
+D:\project\Nhóm 15\Nhóm 15\MyAspNetApp\obj\Debug\net8.0\MyAspNetApp.sourcelink.json
