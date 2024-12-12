@@ -80,7 +80,7 @@ END;
 DECLARE
     v_data VARCHAR2(100) := 'Test encryption data';
     v_key RAW(32) := UTL_RAW.CAST_TO_RAW('12345678901234567890123456789012'); -- 32-byte key
-    v_iv RAW(16) := UTL_RAW.CAST_TO_RAW('initialvector123'); -- 16-byte IV
+    v_iv RAW(16) := UTL_RAW.CAST_TO_RAW('1234567890123456'); -- 16-byte IV
     v_encrypted RAW(2000);
     v_decrypted VARCHAR2(100);
 BEGIN

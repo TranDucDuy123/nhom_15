@@ -47,14 +47,13 @@ namespace MyAspNetApp.Controllers
                     {
                         if (reader.Read())
                         {
-
                             string makh = reader["MAKH"].ToString();
                             string manv = reader["MANV"].ToString();
 
                             // Kiểm tra trạng thái xác thực trong USER_VERIFICATION
                             string verificationQuery = @"
-                        SELECT IS_VERIFIED FROM USER_VERIFICATION 
-                        WHERE MAKH = :makh AND MANV = :manv";
+                    SELECT IS_VERIFIED FROM USER_VERIFICATION 
+                    WHERE MAKH = :makh AND MANV = :manv";
 
                             using (OracleCommand verificationCmd = new OracleCommand(verificationQuery, conn))
                             {
@@ -70,6 +69,31 @@ namespace MyAspNetApp.Controllers
                                     return View();
                                 }
                             }
+
+                            // Kiểm tra thời gian thay đổi mật khẩu
+                            string passwordChangeQuery = "SELECT LASTPASSWORDCHANGED FROM USERS WHERE USERNAME = :username";
+                            using (OracleCommand passwordChangeCmd = new OracleCommand(passwordChangeQuery, conn))
+                            {
+                                passwordChangeCmd.Parameters.Add(new OracleParameter("username", username));
+                                var lastPasswordChanged = passwordChangeCmd.ExecuteScalar();
+
+                                if (lastPasswordChanged != null)
+                                {
+                                    DateTime lastChangedDate = Convert.ToDateTime(lastPasswordChanged);
+                                    DateTime currentDate = DateTime.Now;
+
+                                    // Tính số ngày kể từ lần thay đổi mật khẩu cuối cùng
+                                    int daysDifference = (currentDate - lastChangedDate).Days;
+
+                                    // Kiểm tra nếu đã 30 ngày hoặc hơn thì yêu cầu đổi mật khẩu
+                                    if (daysDifference >= 30)
+                                    {
+                                        ViewBag.Message = "Mật khẩu của bạn đã hết hạn. Vui lòng thay đổi mật khẩu.";
+                                        return View("ChangePassword"); // Chuyển đến trang thay đổi mật khẩu
+                                    }
+                                }
+                            }
+
                             // Lưu thông tin người dùng vào session
                             HttpContext.Session.SetString("Username", reader["USERNAME"].ToString());
                             HttpContext.Session.SetString("FullName", reader["TENDN"].ToString());
@@ -77,8 +101,7 @@ namespace MyAspNetApp.Controllers
                             HttpContext.Session.SetString("Role", reader["VAITRO"].ToString());
                             HttpContext.Session.SetString("Phone", reader["SODT"].ToString());
 
-                            // Chuyển hướng đến trang xác thực khuôn mặt
-                            //return RedirectToAction("FaceRecognition");
+                            // Chuyển hướng đến trang chính
                             ViewBag.Message = "Chào mừng bạn đến với trang chủ!";
                             return RedirectToAction("Index", "Home");
                         }
@@ -92,6 +115,7 @@ namespace MyAspNetApp.Controllers
 
             return View();
         }
+
 
         // GET: Account/FaceRecognition
         public IActionResult FaceRecognition()

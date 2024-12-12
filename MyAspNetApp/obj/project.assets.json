@@ -3223,11 +3223,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\Nhóm 15\\Nhóm 15\\MyAspNetApp\\MyAspNetApp.csproj",
+      "projectUniqueName": "D:\\project\\Nhóm 6\\Nhóm 6\\MyAspNetApp\\MyAspNetApp.csproj",
       "projectName": "MyAspNetApp",
-      "projectPath": "D:\\project\\Nhóm 15\\Nhóm 15\\MyAspNetApp\\MyAspNetApp.csproj",
+      "projectPath": "D:\\project\\Nhóm 6\\Nhóm 6\\MyAspNetApp\\MyAspNetApp.csproj",
       "packagesPath": "C:\\Users\\dyly3\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\Nhóm 15\\Nhóm 15\\MyAspNetApp\\obj\\",
+      "outputPath": "D:\\project\\Nhóm 6\\Nhóm 6\\MyAspNetApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dyly3\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a7VSNwloGhlaJ/UTfflj1AkVjQa00jiV9CV5VjtNWRKvr6KAgTDnbs4Ak0SPUcQhM3TmVC3RCUABr3mUITWaoA==",
+  "dgSpecHash": "bT6ra1unQCSExVHNGlnk95JWqyN/G6FAZcmTIO2eOYhuwjRyaVzBPWf+wtWPNyhsGCZ+eSW3zGSGeqSV/cklrA==",
   "success": true,
-  "projectFilePath": "D:\\project\\Nhóm 15\\Nhóm 15\\MyAspNetApp\\MyAspNetApp.csproj",
+  "projectFilePath": "D:\\project\\Nhóm 6\\Nhóm 6\\MyAspNetApp\\MyAspNetApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dyly3\\.nuget\\packages\\emgu.cv\\4.9.0.5494\\emgu.cv.4.9.0.5494.nupkg.sha512",
     "C:\\Users\\dyly3\\.nuget\\packages\\emgu.cv.bitmap\\4.9.0.5494\\emgu.cv.bitmap.4.9.0.5494.nupkg.sha512",

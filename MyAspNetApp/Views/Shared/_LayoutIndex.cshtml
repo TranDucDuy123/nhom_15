@@ -235,9 +235,13 @@
                     aria-hidden="true" style="font-size:20px"></i> GIỚI THIỆU</a>
             <a style="text-decoration: none;" asp-controller="Account" asp-action="Register"> <i class="fa fa-user"
                     aria-hidden="true" style="font-size:20px"></i> ĐĂNG KÝ</a>
-            <a style="text-decoration: none;" asp-controller="Account" asp-action="Login">
+            @* <a style="text-decoration: none;" asp-controller="Account" asp-action="Login">
                 <i class="fa fa-user"
-                    aria-hidden="true" style="font-size:20px"></i> ĐĂNG NHẬP</a>
+                    aria-hidden="true" style="font-size:20px"></i> ĐĂNG NHẬP</a> *@
+            <a style="text-decoration: none;" asp-controller="Profile" asp-action="Index">
+                <i class="fa fa-user" aria-hidden="true" style="font-size:20px"></i> TÀI KHOẢN
+            </a>
+
             <ul class="header__navbar-list">
                 <li class="header__navbar-item header__navbar-item--has-notify" style="z-index: 9999;">
                     <a href="" class="header__navbar-item-link">
